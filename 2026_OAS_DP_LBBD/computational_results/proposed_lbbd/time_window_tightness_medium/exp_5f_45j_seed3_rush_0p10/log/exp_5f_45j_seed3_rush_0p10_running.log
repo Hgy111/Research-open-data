@@ -1,0 +1,348 @@
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - setup_solver_logging: ================================================================================
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - setup_solver_logging: Logging started. Log file: D:\Project_Code\Paper\DP_LBBD_1\DP_lbbd\Algorithm\Results\proposed_lbbd\time_window_tightness_medium\exp_5f_45j_seed3_rush_0p10\log\exp_5f_45j_seed3_rush_0p10_running.log
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: Feasible pairs: 152/225
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 5 → factory 1 (E=108.31 > deadline=102.70)
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 35 → factory 1 (E=103.30 > deadline=103.20)
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 13 → factory 3 (E=70.53 > deadline=62.00)
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 27 → factory 1 (E=88.87 > deadline=80.90)
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 3 → factory 1 (E=114.07 > deadline=102.80)
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 23 → factory 1 (E=135.71 > deadline=121.10)
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 25 → factory 1 (E=87.91 > deadline=84.80)
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 43 → factory 1 (E=94.30 > deadline=83.10)
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 8 → factory 1 (E=99.32 > deadline=97.20)
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 36 → factory 1 (E=72.80 > deadline=71.30)
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 11 → factory 1 (E=84.54 > deadline=77.50)
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 39 → factory 1 (E=93.91 > deadline=77.20)
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 1 → factory 1 (E=76.28 > deadline=66.10)
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignments detected: 13
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 1 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 1 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 2 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 3 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 3 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 4 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 4 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 4 → factory 5
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 5 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 6 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 7 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 7 → factory 5
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 8 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 9 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 9 → factory 5
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 10 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 10 → factory 5
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 11 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 12 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 13 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 14 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 14 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 14 → factory 4
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 14 → factory 5
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 15 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 17 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 17 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 18 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 18 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 18 → factory 4
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 19 → factory 5
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 20 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 20 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 20 → factory 4
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 21 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 23 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 23 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 25 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 26 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 27 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 28 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 34 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 34 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 35 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 35 → factory 5
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 36 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 37 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 38 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 38 → factory 5
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 39 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 39 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 40 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 40 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 40 → factory 5
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 41 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 42 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 43 → factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 44 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 45 → factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignments: 59
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable orders: 0
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] High-risk orders: 33
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 1 and order 3 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 1 and order 23 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 1 and order 27 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 1 and order 39 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 1 and order 43 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 3 and order 23 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 3 and order 27 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 3 and order 39 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 3 and order 43 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 23 and order 27 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 23 and order 39 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 23 and order 43 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 27 and order 39 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 27 and order 43 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 39 and order 43 in factory 1
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 2 and order 3 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 2 and order 13 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 2 and order 20 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 2 and order 31 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 2 and order 37 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 3 and order 13 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 3 and order 20 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 3 and order 31 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 3 and order 37 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 13 and order 20 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 13 and order 21 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 13 and order 31 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 13 and order 37 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 20 and order 31 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 20 and order 37 in factory 3
+05/06/2026 01:05:58 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 31 and order 37 in factory 3
+05/06/2026 01:05:59 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflicts detected: 31
+05/06/2026 01:05:59 PM INFO proposed_lbbd_solver - print: [Preprocess] Factory 2 has 6 clusters from 32 orders
+05/06/2026 01:05:59 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 2, orders [2, 10, 17, 18, 20, 22, 24, 39, 43]
+05/06/2026 01:05:59 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 2, orders [26, 27, 31, 36, 37, 42, 45]
+05/06/2026 01:05:59 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 2, orders [5, 14, 16, 32, 35, 40]
+05/06/2026 01:05:59 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 2, orders [4, 6, 13, 21]
+05/06/2026 01:05:59 PM INFO proposed_lbbd_solver - print: [Preprocess] Factory 4 has 5 clusters from 29 orders
+05/06/2026 01:05:59 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 4, orders [24, 2, 38, 31, 37, 42, 16, 35, 19, 8, 32, 40]
+05/06/2026 01:05:59 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 4, orders [1, 7, 10, 11, 15, 26, 27, 36]
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: [Preprocess] Factory 5 has 3 clusters from 17 orders
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 5, orders [2, 8, 11, 17, 22, 25, 26, 32, 42, 45]
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflicts detected: 7
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: [Master Enhancement] Capacity feasibility enhancement constrains: 2357
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: [Master Modeling] Earliest completion lower bounds constraints: 2
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: [Master Modeling] Makespan-based delay bounds constraints: 13
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: [Master Enhancement] Lower bound delay cost enhancement constrains: 3244
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: 
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: [Model Statistics]
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:   Variables: 212
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:   Constraints: 5705
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: 
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: [Preprocess Statistics]
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:   Infeasible eliminated: 13
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:   Unprofitable orders: 0
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:   Unprofitable assignments: 59
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:   Pairwise conflicts: 31
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:   Cluster conflicts: 7
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: 
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: [Master Enhancement Statistics]
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:   Capacity feasibility enhancement constrains: 2357
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:   Lower bound delay cost enhancement constrains: 3244
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] CPU model: Intel(R) Core(TM) Ultra 7 265KF, instruction set [SSE2|AVX|AVX2]
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Thread count: 20 physical cores, 20 logical processors, using up to 20 threads
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Optimize a model with 5705 rows, 212 columns and 71994 nonzeros
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Model fingerprint: 0xf3ceb4ae
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Variable types: 15 continuous, 197 integer (197 binary)
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Coefficient statistics:
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Matrix range     [1e+00, 2e+03]
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Objective range  [1e+00, 2e+03]
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Bounds range     [1e+00, 3e+04]
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] RHS range        [1e+00, 5e+03]
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=0.00, delay=0.00, bound=10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.00, gap=999999999999999977049513265245336628446842719924150006129995974731993452180789911303261294481511546880.00%, t=0.0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Found heuristic solution: objective -0.0000000
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Presolve removed 643 rows and 72 columns
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Presolve time: 0.05s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Presolved: 5062 rows, 140 columns, 66835 nonzeros
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Variable types: 15 continuous, 125 integer (125 binary)
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.079s for 5 factories
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[9, 14, 21, 28, 34, 39, 40, 41], cost=856.13, theta_est=0.00
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[1, 2, 3, 4, 7, 8, 19, 38], cost=976.17, theta_est=0.00
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[11, 12, 13, 17, 23, 25], cost=1.47, theta_est=0.00
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=8423.15, delay=1833.78, bound=42097.83, gap=399.79%, t=0.1s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Root relaxation presolved: 5065 rows, 140 columns, 66860 nonzeros
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Root relaxation: objective 1.453409e+04, 99 iterations, 0.01 seconds (0.03 work units)
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Nodes    |    Current Node    |     Objective Bounds      |     Work
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14534.0933    0   18   -0.00000 14534.0933      -     -    0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=13553.41, delay=0.00, bound=14534.09, gap=7.24%, t=0.2s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    13553.414170 14534.0933  7.24%     -    0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.023s for 5 factories
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[1, 8, 11, 16, 19, 21, 23, 27, 36, 37, 42], cost=875.08, theta_est=369.29
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[12, 13, 22, 25, 26, 30, 44], cost=195.63, theta_est=146.52
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=13618.28, delay=1070.71, bound=14534.09, gap=6.72%, t=0.2s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.024s for 5 factories
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    13618.275803 14534.0933  6.72%     -    0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.059s for 5 factories
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[1, 7, 8, 11, 16, 19, 23, 27, 36, 37, 42], cost=3110.88, theta_est=875.08
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14517.7338    0   18 13618.2758 14517.7338  6.60%     -    0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.023s for 5 factories
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[3, 5, 9, 14, 22, 32, 39, 40, 43], cost=61.98, theta_est=52.17
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=13782.54, delay=61.98, bound=14517.73, gap=5.33%, t=0.4s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[7, 8, 11, 16, 19, 21, 23, 27, 36, 37, 38, 42], cost=3664.76, theta_est=875.08
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14433.3152    0   19 13618.2758 14433.3152  5.98%     -    0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.014s for 5 factories
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    13776.987814 14433.3152  4.76%     -    0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14432.4348    0   18 13776.9878 14432.4348  4.76%     -    0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14431.2398    0   19 13776.9878 14431.2398  4.75%     -    0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14430.7063    0   21 13776.9878 14430.7063  4.75%     -    0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14412.6539    0   28 13776.9878 14412.6539  4.61%     -    0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.012s for 5 factories
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[3, 5, 9, 14, 26, 32, 39, 40, 43], cost=39.25, theta_est=19.40
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=13823.26, delay=39.25, bound=14412.65, gap=4.26%, t=0.6s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.016s for 5 factories
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    13799.005329 14412.6539  4.45%     -    0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14397.4413    0   28 13799.0053 14397.4413  4.34%     -    0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14396.9197    0   24 13799.0053 14396.9197  4.33%     -    0s
+05/06/2026 01:06:00 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14392.5716    0   27 13799.0053 14392.5716  4.30%     -    0s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14383.7471    0   29 13799.0053 14383.7471  4.24%     -    0s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[12, 13, 25, 26, 30, 32, 44], cost=308.54, theta_est=231.09
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.023s for 5 factories
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    13817.914567 14383.7471  4.09%     -    0s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14377.4219    0   24 13817.9146 14377.4219  4.05%     -    0s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14370.9044    0   19 13817.9146 14370.9044  4.00%     -    0s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14369.6184    0   28 13817.9146 14369.6184  3.99%     -    0s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14369.2744    0   27 13817.9146 14369.2744  3.99%     -    0s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14369.2184    0   29 13817.9146 14369.2184  3.99%     -    0s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14361.3460    0   25 13817.9146 14361.3460  3.93%     -    0s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.017s for 5 factories
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=13995.11, delay=0.00, bound=14361.35, gap=2.62%, t=1.0s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    13939.962766 14361.3460  3.02%     -    0s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.025s for 5 factories
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=13995.11, delay=0.00, bound=14361.35, gap=2.62%, t=1.0s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    13995.111685 14361.3460  2.62%     -    0s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14360.8052    0   27 13995.1117 14360.8052  2.61%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14356.3967    0   25 13995.1117 14356.3967  2.58%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14353.7954    0   27 13995.1117 14353.7954  2.56%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14353.5150    0   28 13995.1117 14353.5150  2.56%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14353.4123    0   28 13995.1117 14353.4123  2.56%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14353.4040    0   28 13995.1117 14353.4040  2.56%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14352.1817    0   29 13995.1117 14352.1817  2.55%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.025s for 5 factories
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[3, 5, 14, 22, 32, 39, 40, 43, 45], cost=144.76, theta_est=52.73
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=14208.28, delay=144.76, bound=14352.18, gap=1.01%, t=1.2s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.023s for 5 factories
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    14208.278234 14352.1817  1.01%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14350.0033    0   29 14208.2782 14350.0033  1.00%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14349.4269    0   31 14208.2782 14349.4269  0.99%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14348.5859    0   26 14208.2782 14348.5859  0.99%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14348.2955    0   28 14208.2782 14348.2955  0.99%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14348.0360    0   31 14208.2782 14348.0360  0.98%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14347.9816    0   31 14208.2782 14347.9816  0.98%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14341.7562    0   33 14208.2782 14341.7562  0.94%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14341.7562    0   19 14208.2782 14341.7562  0.94%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14341.7562    0   17 14208.2782 14341.7562  0.94%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14341.7562    0   17 14208.2782 14341.7562  0.94%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14341.7562    0   20 14208.2782 14341.7562  0.94%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14341.7562    0   16 14208.2782 14341.7562  0.94%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14341.7562    0   16 14208.2782 14341.7562  0.94%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14330.1015    0   21 14208.2782 14330.1015  0.86%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14330.0643    0   21 14208.2782 14330.0643  0.86%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14329.8281    0   22 14208.2782 14329.8281  0.86%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14329.7372    0   23 14208.2782 14329.7372  0.85%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14326.8679    0   23 14208.2782 14326.8679  0.83%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.015s for 5 factories
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=14279.97, delay=61.98, bound=14326.87, gap=0.33%, t=1.5s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    14274.237624 14326.8679  0.37%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14326.8015    0   23 14274.2376 14326.8015  0.37%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14326.6581    0   15 14274.2376 14326.6581  0.37%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14326.5203    0   24 14274.2376 14326.5203  0.37%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14326.4200    0   26 14274.2376 14326.4200  0.37%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14326.4103    0   26 14274.2376 14326.4103  0.37%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14324.8769    0   18 14274.2376 14324.8769  0.35%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14323.7727    0   17 14274.2376 14323.7727  0.35%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14323.6141    0   17 14274.2376 14323.6141  0.35%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14319.9104    0   23 14274.2376 14319.9104  0.32%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14319.6076    0   23 14274.2376 14319.6076  0.32%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14319.1308    0   23 14274.2376 14319.1308  0.31%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14319.0763    0    9 14274.2376 14319.0763  0.31%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14319.0370    0   23 14274.2376 14319.0370  0.31%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14318.9849    0   23 14274.2376 14318.9849  0.31%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14316.0809    0   22 14274.2376 14316.0809  0.29%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14313.4286    0   22 14274.2376 14313.4286  0.27%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14313.4226    0   24 14274.2376 14313.4226  0.27%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14313.3023    0   24 14274.2376 14313.3023  0.27%     -    1s
+05/06/2026 01:06:01 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14313.3023    0   15 14274.2376 14313.3023  0.27%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14313.3023    0   15 14274.2376 14313.3023  0.27%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14313.3023    0   17 14274.2376 14313.3023  0.27%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14313.3023    0   11 14274.2376 14313.3023  0.27%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14313.3023    0   15 14274.2376 14313.3023  0.27%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14313.3023    0   10 14274.2376 14313.3023  0.27%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14313.3023    0   15 14274.2376 14313.3023  0.27%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14313.3023    0   17 14274.2376 14313.3023  0.27%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14313.3023    0   19 14274.2376 14313.3023  0.27%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14313.3023    0   19 14274.2376 14313.3023  0.27%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14312.9070    0   18 14274.2376 14312.9070  0.27%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14312.8957    0   19 14274.2376 14312.8957  0.27%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14310.8046    0   19 14274.2376 14310.8046  0.26%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14310.7481    0   19 14274.2376 14310.7481  0.26%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14310.7434    0   19 14274.2376 14310.7434  0.26%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14310.0449    0   19 14274.2376 14310.0449  0.25%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14302.4146    0    4 14274.2376 14302.4146  0.20%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14299.4181    0    9 14274.2376 14299.4181  0.18%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14299.3639    0    9 14274.2376 14299.3639  0.18%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14299.2721    0    9 14274.2376 14299.2721  0.18%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14298.9538    0   10 14274.2376 14298.9538  0.17%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14298.9292    0   10 14274.2376 14298.9292  0.17%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14298.8872    0   10 14274.2376 14298.8872  0.17%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14298.2508    0    8 14274.2376 14298.2508  0.17%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.018s for 5 factories
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    14279.088983 14298.2508  0.13%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14296.6710    0    8 14279.0890 14296.6710  0.12%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14296.5180    0    8 14279.0890 14296.5180  0.12%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14296.3660    0    6 14279.0890 14296.3660  0.12%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14289.3766    0   10 14279.0890 14289.3766  0.07%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14288.8128    0   12 14279.0890 14288.8128  0.07%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14288.2567    0   13 14279.0890 14288.2567  0.06%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14286.0817    0   14 14279.0890 14286.0817  0.05%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14284.7030    0   11 14279.0890 14284.7030  0.04%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14284.6887    0   12 14279.0890 14284.6887  0.04%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14284.6357    0   11 14279.0890 14284.6357  0.04%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14283.0307    0    5 14279.0890 14283.0307  0.03%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 14281.8900    0    6 14279.0890 14281.8900  0.02%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.042s for 5 factories
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] *    0     0               0    14279.966718 14279.9667  0.00%     -    1s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Cutting planes:
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] MIR: 13
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Explored 1 nodes (805 simplex iterations) in 1.85 seconds (1.87 work units)
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Thread count was 20 (of 20 available processors)
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Solution count 9: 14280 14208.3 13995.1 ... -0
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Optimal solution found (tolerance 1.00e-04)
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Best objective 1.427996671755e+04, best bound 1.427996671755e+04, gap 0.0000%
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] User-callback calls 1146, time in user-callback 0.53 sec
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: 
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: ============================================================
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Branch-and-Check LBBD Summary
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: ============================================================
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Status: OPTIMAL
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Runtime: 1.85s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Iterations: 20
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Initial UB: 42097.83
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Module times (s): preprocess=1.739, enhancement=0.143, modeling=0.080, solving=1.846
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Master time: 1.331s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Average subproblem time: 0.0173s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Lazy cuts added: 11
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print:   - feasibility cuts: 0
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print:   - optimality cuts: 11
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Subproblems solved: 95
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Subproblem time total: 1.65s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Subproblem time avg: 0.0173s
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Best objective: 14279.97
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Best bound: 14279.97
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Final MIP gap: 0.00%
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: ============================================================
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: 
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: ------------------------------------------------------------
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Subproblem Diagnostics
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: ------------------------------------------------------------
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Total subproblems: 95
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print:   optimal: 95 (100.00%)
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Avg subproblem gap: 0.00% (n=22)
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Avg subproblem objective: 131.156 (n=95)
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Avg subproblem bound: 131.156 (n=95)
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: Avg (obj - bound) / |obj|: 0.00%
+05/06/2026 01:06:02 PM INFO proposed_lbbd_solver - print: ------------------------------------------------------------

@@ -1,0 +1,574 @@
+04/27/2026 08:33:02 AM INFO lbbd_mip_v1_solver - setup_solver_logging: ================================================================================
+04/27/2026 08:33:02 AM INFO lbbd_mip_v1_solver - setup_solver_logging: Logging started. Log file: D:\Project_Code\Paper\DP_LBBD_1\DP_lbbd\Algorithm\Results\lbbd_mip\large\exp_7f_70j_seed4\log\exp_7f_70j_seed4_running.log
+04/27/2026 08:33:02 AM INFO lbbd_mip_v1_solver - print: Feasible pairs: 314/490
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print: [Master Modeling] Earliest completion lower bounds constraints: 5
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print: [Master Modeling] Makespan-based delay bounds constraints: 29
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print: 
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print: [Model Statistics]
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print:   Variables: 405
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print:   Constraints: 104
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print: 
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print: [Preprocess Statistics]
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print:   Infeasible eliminated: 0
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print:   Unprofitable orders: 0
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print:   Unprofitable assignments: 0
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print:   Pairwise conflicts: 0
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print:   Cluster conflicts: 0
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print: 
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print: [Master Enhancement Statistics]
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print:   Capacity feasibility enhancement constrains: 0
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print:   Lower bound delay cost enhancement constrains: 0
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] CPU model: Intel(R) Core(TM) Ultra 7 265KF, instruction set [SSE2|AVX|AVX2]
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Thread count: 20 physical cores, 20 logical processors, using up to 20 threads
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Optimize a model with 104 rows, 405 columns and 1781 nonzeros
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Model fingerprint: 0xf3dfb538
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Variable types: 21 continuous, 384 integer (384 binary)
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Coefficient statistics:
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Matrix range     [1e+00, 2e+03]
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Objective range  [1e+00, 4e+03]
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Bounds range     [1e+00, 4e+04]
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] RHS range        [5e+03, 7e+03]
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - print: ***[Validated]*** obj=0.00, delay=0.00, bound=10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.00, gap=999999999999999977049513265245336628446842719924150006129995974731993452180789911303261294481511546880.00%, t=0.0s
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Found heuristic solution: objective -0.0000000
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Presolve removed 20 rows and 1 columns
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Presolve time: 0.00s
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Presolved: 84 rows, 404 columns, 904 nonzeros
+04/27/2026 08:33:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Variable types: 21 continuous, 383 integer (383 binary)
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 7.652s for 7 factories
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=2, conflict orders=[24, 27, 42, 52, 55, 64]
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[2, 18, 23, 32, 43, 47, 49, 63, 65]
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 6, 14, 19, 21, 22, 25, 29, 30, 33, 38, 45, 46]
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[1, 8, 9, 10, 11, 12, 15, 17, 20, 28, 31, 35, 37, 39], cost=1828.02, theta_est=0.00
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[3, 5, 13, 34, 41, 51, 58, 61, 66, 70], cost=1177.84, theta_est=0.00
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Root simplex log...
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Iteration    Objective       Primal Inf.    Dual Inf.      Time
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0    7.5035847e+04   6.900000e+01   0.000000e+00      8s
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 89    2.8546834e+04   0.000000e+00   0.000000e+00      8s
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Root relaxation: objective 2.854683e+04, 89 iterations, 0.00 seconds (0.00 work units)
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Nodes    |    Current Node    |     Objective Bounds      |     Work
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+04/27/2026 08:33:12 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28546.8340    0    8   -0.00000 28546.8340      -     -    7s
+04/27/2026 08:33:26 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 14.419s for 7 factories
+04/27/2026 08:33:26 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 42, 49, 63]
+04/27/2026 08:33:26 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 14, 21, 28, 29, 31, 54, 56, 58, 61, 68, 69]
+04/27/2026 08:33:26 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 8, 19, 32, 37, 38, 39, 40, 41, 44, 45, 46, 47, 52, 62], cost=1368.84, theta_est=0.00
+04/27/2026 08:33:26 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 26, 27, 34, 51, 66, 67, 70], cost=1339.00, theta_est=0.00
+04/27/2026 08:33:35 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 8.679s for 7 factories
+04/27/2026 08:33:35 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=2, orders=[27, 55, 64], cost=44.81, theta_est=0.00
+04/27/2026 08:33:35 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 42, 49, 63, 65]
+04/27/2026 08:33:35 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[11, 12, 14, 18, 21, 28, 29, 31, 54, 56, 58, 61, 68, 69]
+04/27/2026 08:33:35 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 32, 37, 38, 39, 40, 41, 45, 46, 47, 52, 62], cost=1380.80, theta_est=0.00
+04/27/2026 08:33:35 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 34, 51, 66, 67, 70], cost=1582.23, theta_est=0.00
+04/27/2026 08:33:48 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 12.776s for 7 factories
+04/27/2026 08:33:48 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 42, 49, 63]
+04/27/2026 08:33:48 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 14, 21, 28, 31, 54, 56, 58, 61, 68, 69]
+04/27/2026 08:33:48 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 34, 51, 66, 67, 70], cost=3308.74, theta_est=1582.23
+04/27/2026 08:33:48 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 0.001s for 2 factories
+04/27/2026 08:33:48 AM INFO lbbd_mip_v1_solver - print: ***[Validated]*** obj=2521.92, delay=0.00, bound=28546.83, gap=1031.95%, t=43.5s
+04/27/2026 08:33:48 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] H    0     0                    2521.9171178 28546.8340  1032%     -   43s
+04/27/2026 08:33:48 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28504.6615    0   12 2521.91712 28504.6615  1030%     -   43s
+04/27/2026 08:34:35 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 47.337s for 7 factories
+04/27/2026 08:34:35 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 30, 39, 42, 49, 65]
+04/27/2026 08:34:35 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[12, 14, 21, 28, 29, 31, 54, 56, 58, 61, 66, 68, 69], cost=1690.70, theta_est=0.00
+04/27/2026 08:34:35 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 32, 37, 38, 40, 41, 44, 45, 46, 47, 52, 62], cost=1765.16, theta_est=76.43
+04/27/2026 08:34:35 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 34, 51, 67, 70], cost=1418.81, theta_est=0.00
+04/27/2026 08:34:35 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 0.003s for 3 factories
+04/27/2026 08:34:35 AM INFO lbbd_mip_v1_solver - print: ***[Validated]*** obj=3365.01, delay=0.00, bound=28504.66, gap=747.09%, t=90.9s
+04/27/2026 08:34:35 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] H    0     0                    3365.0123421 28504.6615   747%     -   90s
+04/27/2026 08:34:35 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28478.0955    0   18 3365.01234 28478.0955   746%     -   90s
+04/27/2026 08:34:35 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28468.2331    0   22 3365.01234 28468.2331   746%     -   90s
+04/27/2026 08:34:44 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 8.756s for 7 factories
+04/27/2026 08:34:44 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 39, 42, 49, 65, 67]
+04/27/2026 08:34:44 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[12, 14, 21, 28, 29, 31, 54, 55, 56, 58, 68, 69], cost=2241.22, theta_est=0.00
+04/27/2026 08:34:44 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 8, 19, 30, 32, 37, 38, 40, 41, 44, 45, 46, 47, 52, 62], cost=1465.34, theta_est=0.00
+04/27/2026 08:34:44 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 27, 34, 51, 61, 66, 70]
+04/27/2026 08:34:44 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 0.005s for 5 factories
+04/27/2026 08:34:44 AM INFO lbbd_mip_v1_solver - print: ***[Validated]*** obj=4893.78, delay=0.00, bound=28468.23, gap=481.72%, t=99.7s
+04/27/2026 08:34:44 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] H    0     0                    4893.7832342 28468.2331   482%     -   99s
+04/27/2026 08:34:44 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28445.9937    0   35 4893.78323 28445.9937   481%     -   99s
+04/27/2026 08:34:44 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 0.006s for 4 factories
+04/27/2026 08:34:44 AM INFO lbbd_mip_v1_solver - print: ***[Validated]*** obj=5359.22, delay=0.00, bound=28445.99, gap=430.79%, t=99.7s
+04/27/2026 08:34:44 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] H    0     0                    5359.2237157 28445.9937   431%     -   99s
+04/27/2026 08:34:49 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 5.003s for 7 factories
+04/27/2026 08:34:49 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 39, 42, 49, 65]
+04/27/2026 08:34:49 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[6, 21, 28, 29, 31, 54, 55, 56, 58, 66, 68, 69], cost=2419.08, theta_est=0.00
+04/27/2026 08:34:49 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 8, 19, 32, 37, 38, 40, 41, 44, 45, 46, 47, 52, 62], cost=697.50, theta_est=0.00
+04/27/2026 08:34:49 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 14, 24, 26, 34, 51, 61, 67, 70]
+04/27/2026 08:34:53 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 4.471s for 7 factories
+04/27/2026 08:34:53 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 39, 42, 49]
+04/27/2026 08:34:53 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 21, 28, 29, 31, 54, 55, 56, 58, 66, 68, 69]
+04/27/2026 08:34:53 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 13, 14, 24, 26, 34, 51, 61, 67, 70]
+04/27/2026 08:34:53 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28433.8998    0   30 5359.22372 28433.8998   431%     -  109s
+04/27/2026 08:34:53 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28431.6084    0   34 5359.22372 28431.6084   431%     -  109s
+04/27/2026 08:34:53 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28431.0382    0   35 5359.22372 28431.0382   431%     -  109s
+04/27/2026 08:34:53 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28419.9519    0   29 5359.22372 28419.9519   430%     -  109s
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 24.484s for 7 factories
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 42, 49, 65, 67]
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[12, 14, 21, 28, 29, 31, 54, 56, 58, 61, 68, 69], cost=731.44, theta_est=0.00
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 32, 37, 39, 40, 41, 44, 45, 46, 47, 52, 62], cost=1007.49, theta_est=10.39
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 27, 34, 38, 51, 66, 70]
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 0.011s for 4 factories
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=1, orders=[16, 64], cost=248.37, theta_est=-0.00
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=3, orders=[18, 25, 31, 63], cost=418.21, theta_est=0.00
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - print: ***[Validated]*** obj=6040.04, delay=666.58, bound=28419.95, gap=370.53%, t=133.7s
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 0.009s for 4 factories
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - print: ***[Validated]*** obj=6358.38, delay=248.37, bound=28419.95, gap=346.97%, t=133.7s
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] H    0     0                    6358.3810847 28419.9519   347%     -  133s
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28411.2901    0   36 6358.38108 28411.2901   347%     -  133s
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28411.2751    0   37 6358.38108 28411.2751   347%     -  133s
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28408.3621    0   34 6358.38108 28408.3621   347%     -  133s
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 0.004s for 5 factories
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - print: ***[Validated]*** obj=7124.35, delay=0.00, bound=28408.36, gap=298.75%, t=133.7s
+04/27/2026 08:35:18 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] H    0     0                    6875.9756553 28408.3621   313%     -  133s
+04/27/2026 08:35:30 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 11.562s for 7 factories
+04/27/2026 08:35:30 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 42, 49, 65]
+04/27/2026 08:35:30 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 14, 21, 28, 29, 31, 54, 56, 58, 68, 69]
+04/27/2026 08:35:30 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=5, conflict orders=[2, 3, 8, 19, 30, 32, 37, 38, 39, 40, 41, 44, 45, 46, 47, 52, 62]
+04/27/2026 08:35:30 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 27, 34, 51, 61, 66, 67, 70], cost=1651.32, theta_est=0.00
+04/27/2026 08:35:53 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 23.852s for 7 factories
+04/27/2026 08:35:53 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 42, 49]
+04/27/2026 08:35:53 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 14, 21, 28, 31, 54, 56, 58, 66, 68, 69]
+04/27/2026 08:35:53 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=5, conflict orders=[2, 3, 8, 19, 30, 32, 37, 38, 39, 40, 41, 44, 45, 47, 52, 62]
+04/27/2026 08:35:53 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 27, 34, 51, 61, 67, 70]
+04/27/2026 08:36:04 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 10.227s for 7 factories
+04/27/2026 08:36:04 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 2, 15, 18, 23, 25, 42, 62, 65]
+04/27/2026 08:36:04 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 6, 12, 14, 21, 28, 29, 31, 34, 54, 56, 58, 68]
+04/27/2026 08:36:04 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 30, 32, 37, 38, 39, 40, 41, 44, 46, 47, 52, 69], cost=2022.01, theta_est=21.25
+04/27/2026 08:36:04 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 27, 51, 61, 66, 67, 70]
+04/27/2026 08:36:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28391.2740    0   36 6875.97566 28391.2740   313%     -  179s
+04/27/2026 08:36:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28391.1881    0   36 6875.97566 28391.1881   313%     -  179s
+04/27/2026 08:36:04 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28388.3229    0   37 6875.97566 28388.3229   313%     -  179s
+04/27/2026 08:36:33 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 29.631s for 7 factories
+04/27/2026 08:36:33 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 42, 49, 65, 67]
+04/27/2026 08:36:33 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[12, 14, 18, 21, 28, 29, 31, 50, 54, 56, 58, 68, 69]
+04/27/2026 08:36:33 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 37, 38, 39, 40, 41, 44, 45, 46, 52, 62], cost=1521.40, theta_est=0.00
+04/27/2026 08:36:33 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[7, 13, 24, 26, 27, 34, 51, 61, 66, 70]
+04/27/2026 08:37:35 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 61.308s for 7 factories
+04/27/2026 08:37:35 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 42, 47, 49, 67]
+04/27/2026 08:37:35 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[12, 14, 21, 28, 29, 31, 50, 54, 56, 58, 66, 68, 69]
+04/27/2026 08:37:35 AM INFO lbbd_mip_v1_solver - print: Subproblem timeout without solution: factory=5
+04/27/2026 08:37:35 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 34, 51, 61, 70], cost=2680.67, theta_est=0.00
+04/27/2026 08:37:41 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 6.600s for 7 factories
+04/27/2026 08:37:41 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[2, 15, 23, 25, 42, 47, 49, 65, 67]
+04/27/2026 08:37:41 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[11, 12, 14, 18, 21, 28, 29, 31, 34, 50, 54, 56, 58, 68]
+04/27/2026 08:37:41 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=5, conflict orders=[1, 3, 8, 19, 20, 32, 37, 38, 39, 40, 41, 46, 52, 62, 69]
+04/27/2026 08:37:41 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 27, 51, 61, 66, 70]
+04/27/2026 08:37:43 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 1.568s for 5 factories
+04/27/2026 08:37:43 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=5, conflict orders=[1, 17, 18, 20, 32, 35, 37, 38, 39, 41, 44, 45, 52, 69]
+04/27/2026 08:37:43 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28386.4601    0   36 6875.97566 28386.4601   313%     -  278s
+04/27/2026 08:38:18 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 34.808s for 7 factories
+04/27/2026 08:38:18 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 42, 47, 49, 65]
+04/27/2026 08:38:18 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[6, 18, 21, 28, 29, 31, 54, 55, 56, 58, 61, 68, 69], cost=2379.24, theta_est=0.31
+04/27/2026 08:38:18 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 32, 37, 38, 39, 40, 41, 44, 46, 52, 62], cost=1472.78, theta_est=0.00
+04/27/2026 08:38:18 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 34, 51, 66, 67, 70], cost=2959.37, theta_est=1582.23
+04/27/2026 08:39:19 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 61.261s for 7 factories
+04/27/2026 08:39:19 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 42, 47, 49]
+04/27/2026 08:39:19 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 18, 21, 28, 29, 31, 54, 55, 56, 58, 61, 68, 69]
+04/27/2026 08:39:19 AM INFO lbbd_mip_v1_solver - print: Subproblem timeout without solution: factory=5
+04/27/2026 08:39:19 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 14, 24, 26, 27, 34, 51, 66, 67, 70]
+04/27/2026 08:39:22 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 2.874s for 7 factories
+04/27/2026 08:39:22 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[15, 23, 25, 42, 47, 49, 62, 65]
+04/27/2026 08:39:22 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 18, 21, 28, 29, 31, 34, 54, 55, 56, 58, 61, 68]
+04/27/2026 08:39:22 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=5, conflict orders=[1, 2, 3, 8, 19, 20, 32, 37, 38, 39, 40, 41, 44, 46, 52, 69]
+04/27/2026 08:39:22 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 27, 51, 66, 67, 70], cost=2847.85, theta_est=119.72
+04/27/2026 08:39:22 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28381.7203    0   38 6875.97566 28381.7203   313%     -  377s
+04/27/2026 08:39:22 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28381.3809    0   41 6875.97566 28381.3809   313%     -  377s
+04/27/2026 08:39:22 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28381.3485    0   41 6875.97566 28381.3485   313%     -  377s
+04/27/2026 08:39:22 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28377.6239    0   42 6875.97566 28377.6239   313%     -  377s
+04/27/2026 08:40:22 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 60.180s for 7 factories
+04/27/2026 08:40:22 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 42, 49, 65]
+04/27/2026 08:40:22 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[12, 14, 18, 21, 28, 29, 31, 54, 56, 58, 68, 69], cost=1653.94, theta_est=0.00
+04/27/2026 08:40:22 AM INFO lbbd_mip_v1_solver - print: Subproblem timeout without solution: factory=5
+04/27/2026 08:40:22 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 13, 24, 26, 27, 34, 51, 61, 66, 67, 70]
+04/27/2026 08:40:22 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 0.010s for 5 factories
+04/27/2026 08:40:22 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[13, 31, 42, 43, 47, 63]
+04/27/2026 08:40:22 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[5, 9, 12, 19, 25, 32, 37, 46, 68]
+04/27/2026 08:40:22 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28364.9274    0   32 6875.97566 28364.9274   313%     -  437s
+04/27/2026 08:40:22 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28361.0440    0   34 6875.97566 28361.0440   312%     -  437s
+04/27/2026 08:40:22 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28359.9390    0   36 6875.97566 28359.9390   312%     -  437s
+04/27/2026 08:41:22 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 60.237s for 7 factories
+04/27/2026 08:41:22 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 30, 39, 42, 65]
+04/27/2026 08:41:22 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[6, 21, 28, 29, 31, 54, 55, 56, 58, 61, 68, 69], cost=1328.76, theta_est=0.00
+04/27/2026 08:41:22 AM INFO lbbd_mip_v1_solver - print: Subproblem timeout without solution: factory=5
+04/27/2026 08:41:22 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 14, 24, 26, 27, 34, 51, 66, 67, 70]
+04/27/2026 08:42:23 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 60.686s for 7 factories
+04/27/2026 08:42:23 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 30, 39, 42]
+04/27/2026 08:42:23 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[6, 12, 21, 28, 29, 31, 54, 55, 56, 58, 61, 68, 69], cost=2961.92, theta_est=1328.76
+04/27/2026 08:42:23 AM INFO lbbd_mip_v1_solver - print: Subproblem timeout without solution: factory=5
+04/27/2026 08:42:23 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 27, 34, 51, 67, 70], cost=2893.51, theta_est=1418.81
+04/27/2026 08:42:46 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 23.586s for 7 factories
+04/27/2026 08:42:46 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 30, 39, 42, 62, 65]
+04/27/2026 08:42:46 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 18, 21, 29, 31, 34, 54, 55, 56, 58, 61, 68, 69]
+04/27/2026 08:42:46 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 32, 37, 38, 40, 41, 44, 45, 46, 47, 52], cost=1583.76, theta_est=0.00
+04/27/2026 08:43:07 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 20.520s for 7 factories
+04/27/2026 08:43:07 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 30, 39, 42, 65]
+04/27/2026 08:43:07 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[6, 18, 21, 29, 31, 34, 54, 55, 56, 58, 61, 68, 69], cost=2151.39, theta_est=0.00
+04/27/2026 08:43:07 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 32, 37, 38, 40, 41, 45, 46, 47, 52, 62], cost=1568.81, theta_est=23.46
+04/27/2026 08:43:25 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 17.929s for 7 factories
+04/27/2026 08:43:25 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 25, 30, 39, 42, 65]
+04/27/2026 08:43:25 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[5, 6, 21, 29, 31, 54, 55, 56, 58, 61, 68, 69], cost=2552.58, theta_est=0.00
+04/27/2026 08:43:25 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 32, 37, 38, 41, 44, 45, 46, 47, 52, 62], cost=2160.70, theta_est=27.26
+04/27/2026 08:43:25 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[7, 13, 14, 24, 26, 27, 34, 51, 66, 67, 70], cost=3377.99, theta_est=0.00
+04/27/2026 08:43:40 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 14.571s for 7 factories
+04/27/2026 08:43:40 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 18, 23, 25, 30, 39, 42, 65]
+04/27/2026 08:43:40 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[6, 12, 21, 28, 29, 54, 55, 56, 58, 61, 68, 69], cost=2593.14, theta_est=0.00
+04/27/2026 08:43:40 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 37, 38, 40, 41, 44, 45, 46, 47, 52, 62], cost=1904.50, theta_est=114.01
+04/27/2026 08:43:40 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 13, 14, 24, 26, 27, 34, 51, 66, 67, 70], cost=3404.03, theta_est=163.36
+04/27/2026 08:44:12 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 32.271s for 7 factories
+04/27/2026 08:44:12 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 25, 30, 39, 42]
+04/27/2026 08:44:12 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[5, 6, 12, 21, 29, 54, 55, 56, 58, 61, 68, 69]
+04/27/2026 08:44:12 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 32, 37, 38, 40, 41, 44, 45, 46, 47, 62], cost=1535.53, theta_est=14.49
+04/27/2026 08:44:12 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[13, 14, 24, 26, 27, 34, 51, 66, 67, 70], cost=2042.13, theta_est=0.00
+04/27/2026 08:44:32 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 20.682s for 7 factories
+04/27/2026 08:44:32 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 18, 23, 25, 30, 39, 42]
+04/27/2026 08:44:32 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[5, 6, 21, 28, 29, 54, 55, 56, 58, 61, 68, 69]
+04/27/2026 08:44:32 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 32, 38, 40, 41, 44, 45, 46, 47, 52, 62], cost=1185.53, theta_est=0.00
+04/27/2026 08:44:32 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[7, 14, 24, 26, 27, 34, 51, 66, 67, 70], cost=3362.40, theta_est=0.00
+04/27/2026 08:44:40 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 7.081s for 7 factories
+04/27/2026 08:44:40 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=3, orders=[1, 18, 25, 30, 39, 42, 65], cost=1585.42, theta_est=0.00
+04/27/2026 08:44:40 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[6, 12, 21, 29, 31, 54, 55, 56, 58, 61, 68, 69], cost=1276.29, theta_est=0.00
+04/27/2026 08:44:40 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 37, 38, 41, 44, 45, 46, 47, 52, 62], cost=748.03, theta_est=0.00
+04/27/2026 08:44:40 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 14, 24, 26, 27, 34, 51, 66, 67, 70], cost=3334.80, theta_est=0.00
+04/27/2026 08:44:40 AM INFO lbbd_mip_v1_solver - print: ***[Validated]*** obj=18905.99, delay=6944.53, bound=28359.94, gap=50.01%, t=695.3s
+04/27/2026 08:44:40 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28359.1905    0   33 6875.97566 28359.1905   312%     -  695s
+04/27/2026 08:44:47 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 7.048s for 7 factories
+04/27/2026 08:44:47 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] H    0     0                    18905.919798 28359.1905  50.0%     -  702s
+04/27/2026 08:44:47 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28358.9094    0   35 18905.9198 28358.9094  50.0%     -  702s
+04/27/2026 08:44:47 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28358.8506    0   35 18905.9198 28358.8506  50.0%     -  702s
+04/27/2026 08:44:47 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28351.7217    0   35 18905.9198 28351.7217  50.0%     -  702s
+04/27/2026 08:44:59 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 11.969s for 7 factories
+04/27/2026 08:44:59 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 2, 18, 42, 63]
+04/27/2026 08:44:59 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 21, 25, 29, 31, 54, 55, 56, 58, 61, 65, 66, 68, 69]
+04/27/2026 08:44:59 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 20, 30, 37, 38, 39, 41, 44, 45, 46, 47, 52, 62], cost=2005.99, theta_est=9.42
+04/27/2026 08:44:59 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 14, 24, 26, 27, 34, 36, 51, 67, 70]
+04/27/2026 08:45:47 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 47.947s for 7 factories
+04/27/2026 08:45:47 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 42, 47, 65, 67]
+04/27/2026 08:45:47 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[6, 12, 21, 28, 29, 31, 54, 55, 56, 58, 61, 69], cost=1712.85, theta_est=0.00
+04/27/2026 08:45:47 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 8, 19, 20, 32, 37, 38, 39, 40, 41, 44, 45, 46, 52, 62], cost=1189.29, theta_est=0.00
+04/27/2026 08:45:47 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 34, 51, 66, 70], cost=1072.12, theta_est=0.00
+04/27/2026 08:46:36 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 49.581s for 7 factories
+04/27/2026 08:46:36 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 30, 42, 47, 65, 67]
+04/27/2026 08:46:36 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 27, 34, 51, 66, 70], cost=2812.01, theta_est=1072.12
+04/27/2026 08:47:03 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 26.448s for 7 factories
+04/27/2026 08:47:03 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[15, 18, 23, 25, 42, 47, 49, 65, 67]
+04/27/2026 08:47:03 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[2, 4, 6, 9, 12, 21, 28, 29, 31, 34, 54, 55, 56, 58, 61, 68, 69]
+04/27/2026 08:47:03 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[1, 8, 19, 20, 32, 37, 38, 39, 40, 41, 44, 45, 46, 52, 62], cost=2375.40, theta_est=156.53
+04/27/2026 08:47:03 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 27, 51, 66, 70], cost=1505.39, theta_est=0.00
+04/27/2026 08:47:03 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28350.2336    0   39 18905.9198 28350.2336  50.0%     -  838s
+04/27/2026 08:47:03 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28350.1044    0   41 18905.9198 28350.1044  50.0%     -  838s
+04/27/2026 08:47:03 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28344.4341    0   39 18905.9198 28344.4341  49.9%     -  838s
+04/27/2026 08:47:51 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 48.701s for 7 factories
+04/27/2026 08:47:51 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 30, 42, 47, 65]
+04/27/2026 08:47:51 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 14, 21, 28, 31, 54, 55, 56, 58, 68, 69]
+04/27/2026 08:47:51 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 13, 24, 26, 27, 34, 51, 61, 67, 70]
+04/27/2026 08:47:51 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28343.7714    0   39 18905.9198 28343.7714  49.9%     -  887s
+04/27/2026 08:47:51 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28343.4778    0   39 18905.9198 28343.4778  49.9%     -  887s
+04/27/2026 08:47:51 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28340.9990    0   39 18905.9198 28340.9990  49.9%     -  887s
+04/27/2026 08:47:51 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28340.9990    0   39 18905.9198 28340.9990  49.9%     -  887s
+04/27/2026 08:48:22 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 30.787s for 7 factories
+04/27/2026 08:48:22 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 2, 15, 18, 23, 25, 39, 42, 65, 67]
+04/27/2026 08:48:22 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[12, 21, 28, 29, 31, 54, 55, 56, 58, 61, 66, 68, 69], cost=2062.06, theta_est=0.92
+04/27/2026 08:48:22 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 30, 32, 37, 38, 40, 41, 44, 45, 46, 47, 52, 62], cost=1747.68, theta_est=71.71
+04/27/2026 08:48:22 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 27, 34, 51, 70], cost=1369.73, theta_est=0.00
+04/27/2026 08:49:18 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 56.106s for 7 factories
+04/27/2026 08:49:18 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 30, 42, 65, 67]
+04/27/2026 08:49:18 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=5, conflict orders=[2, 8, 19, 20, 32, 37, 38, 39, 40, 41, 44, 45, 46, 47, 52, 62]
+04/27/2026 08:49:24 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 6.155s for 7 factories
+04/27/2026 08:49:24 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 30, 42, 62, 65]
+04/27/2026 08:49:24 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 14, 21, 28, 29, 31, 54, 55, 56, 58, 66, 68]
+04/27/2026 08:49:24 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 8, 19, 32, 37, 38, 39, 40, 41, 44, 45, 46, 47, 52, 69], cost=2321.12, theta_est=0.00
+04/27/2026 08:49:24 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 34, 51, 61, 67], cost=2953.16, theta_est=0.00
+04/27/2026 08:49:32 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 7.677s for 7 factories
+04/27/2026 08:49:32 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 13, 15, 18, 23, 25, 39, 42, 65]
+04/27/2026 08:49:32 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     0 28340.9990    0   39 18905.9198 28340.9990  49.9%     -  987s
+04/27/2026 08:49:32 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 0     2 28340.9990    0   39 18905.9198 28340.9990  49.9%     -  987s
+04/27/2026 08:49:54 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 21.624s for 7 factories
+04/27/2026 08:49:54 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 39, 42, 63, 65]
+04/27/2026 08:49:54 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[12, 14, 21, 28, 29, 31, 54, 55, 56, 58, 61, 66, 68], cost=2002.13, theta_est=0.00
+04/27/2026 08:49:54 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 32, 37, 40, 41, 44, 45, 46, 47, 52, 62, 69], cost=1451.06, theta_est=0.00
+04/27/2026 08:49:54 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 34, 38, 51, 67], cost=2674.90, theta_est=0.00
+04/27/2026 08:49:54 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 31    52 28234.6786    5   24 18905.9198 28317.5714  49.8%  16.0 1009s
+04/27/2026 08:50:07 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 12.965s for 7 factories
+04/27/2026 08:50:07 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 42, 47, 63, 65]
+04/27/2026 08:50:07 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[6, 12, 14, 18, 21, 28, 29, 31, 54, 56, 58, 61, 68], cost=2156.76, theta_est=8.79
+04/27/2026 08:50:07 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 8, 19, 32, 37, 38, 39, 40, 41, 44, 45, 46, 52, 62, 69], cost=1588.56, theta_est=9.36
+04/27/2026 08:50:07 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 34, 51, 66, 67], cost=1637.37, theta_est=0.00
+04/27/2026 08:50:15 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 8.092s for 7 factories
+04/27/2026 08:50:15 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 42, 63, 65]
+04/27/2026 08:50:15 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[2, 12, 14, 21, 28, 29, 31, 34, 54, 56, 58, 66, 68, 69]
+04/27/2026 08:50:15 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 19, 30, 32, 37, 38, 39, 40, 41, 44, 45, 46, 47, 52, 62], cost=1351.35, theta_est=0.00
+04/27/2026 08:50:15 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 51, 61, 67, 70], cost=2745.82, theta_est=0.00
+04/27/2026 08:50:58 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 42.914s for 7 factories
+04/27/2026 08:50:58 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 42, 49, 63, 65, 67]
+04/27/2026 08:50:58 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[12, 14, 21, 25, 28, 29, 31, 54, 56, 58, 66, 68, 69]
+04/27/2026 08:50:58 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 8, 19, 32, 37, 39, 40, 41, 44, 45, 46, 47, 52, 61, 62], cost=1397.56, theta_est=0.00
+04/27/2026 08:50:58 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 34, 38, 51, 70], cost=2402.41, theta_est=-0.00
+04/27/2026 08:51:10 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 11.502s for 7 factories
+04/27/2026 08:51:10 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 39, 42, 47, 65]
+04/27/2026 08:51:10 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[12, 21, 28, 29, 31, 54, 55, 56, 58, 61, 66, 68], cost=1051.50, theta_est=0.00
+04/27/2026 08:51:10 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 8, 19, 30, 32, 37, 38, 40, 41, 44, 45, 46, 52, 62, 69], cost=1658.86, theta_est=0.00
+04/27/2026 08:51:10 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 27, 34, 51, 67], cost=1496.83, theta_est=0.00
+04/27/2026 08:51:10 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 91   112 28142.2481    7   33 18905.9198 28307.8471  49.7%  15.8 1085s
+04/27/2026 08:51:32 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 21.853s for 7 factories
+04/27/2026 08:51:32 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 31, 42, 47, 65]
+04/27/2026 08:51:32 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[12, 21, 28, 29, 50, 54, 55, 56, 58, 61, 66, 68, 69], cost=2652.51, theta_est=125.17
+04/27/2026 08:51:32 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 17, 19, 20, 32, 37, 39, 40, 41, 44, 45, 46, 52, 62], cost=1816.48, theta_est=13.78
+04/27/2026 08:51:32 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 14, 24, 26, 30, 34, 38, 51, 67, 70]
+04/27/2026 08:52:04 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 32.126s for 7 factories
+04/27/2026 08:52:04 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 42, 62, 65, 67]
+04/27/2026 08:52:04 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 14, 21, 28, 29, 31, 50, 54, 56, 58, 61, 68]
+04/27/2026 08:52:04 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 32, 37, 39, 40, 41, 44, 45, 46, 47, 52, 69], cost=2510.75, theta_est=163.33
+04/27/2026 08:52:04 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 27, 34, 38, 51, 66]
+04/27/2026 08:53:04 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 60.083s for 7 factories
+04/27/2026 08:53:04 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 38, 42, 63, 65, 67]
+04/27/2026 08:53:04 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[14, 18, 21, 28, 29, 31, 54, 55, 56, 58, 61, 66, 68, 69], cost=2525.50, theta_est=111.28
+04/27/2026 08:53:04 AM INFO lbbd_mip_v1_solver - print:  Added time-limited optimality cut: factory=5, orders=[2, 8, 19, 20, 30, 32, 37, 39, 40, 41, 44, 45, 46, 47, 52, 62], cost=1875.01, theta_est=106.06
+04/27/2026 08:53:04 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 34, 51, 70], cost=847.19, theta_est=0.00
+04/27/2026 08:53:09 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 5.216s for 7 factories
+04/27/2026 08:53:09 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 30, 42, 63, 65, 67]
+04/27/2026 08:53:09 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 18, 21, 28, 29, 31, 54, 56, 58, 61, 66, 68, 69]
+04/27/2026 08:53:09 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 8, 19, 32, 37, 38, 39, 40, 41, 45, 46, 47, 52, 62], cost=798.16, theta_est=0.00
+04/27/2026 08:53:09 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 27, 34, 51], cost=944.58, theta_est=0.00
+04/27/2026 08:53:23 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 14.309s for 7 factories
+04/27/2026 08:53:23 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 42, 47, 65]
+04/27/2026 08:53:23 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 14, 21, 28, 29, 31, 54, 55, 56, 58, 68]
+04/27/2026 08:53:23 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=5, conflict orders=[2, 8, 19, 20, 32, 37, 38, 39, 40, 41, 44, 45, 46, 52, 62, 69]
+04/27/2026 08:53:23 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 30, 34, 36, 51, 61, 66, 67, 70]
+04/27/2026 08:53:30 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 6.691s for 7 factories
+04/27/2026 08:53:30 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 30, 42, 63, 65]
+04/27/2026 08:53:30 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[12, 14, 18, 21, 28, 29, 31, 50, 54, 55, 56, 58, 66, 68]
+04/27/2026 08:53:30 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 8, 19, 32, 37, 39, 40, 41, 44, 45, 46, 47, 52, 62, 69], cost=1136.80, theta_est=0.00
+04/27/2026 08:53:30 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 34, 38, 51, 61, 67, 70]
+04/27/2026 08:53:42 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 11.422s for 7 factories
+04/27/2026 08:53:42 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 42, 62, 63, 65]
+04/27/2026 08:53:42 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[18, 21, 28, 29, 31, 54, 55, 56, 58, 61, 66, 68, 69], cost=1285.61, theta_est=0.00
+04/27/2026 08:53:42 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 32, 37, 38, 39, 40, 41, 44, 45, 46, 47, 52], cost=1550.35, theta_est=4.97
+04/27/2026 08:53:42 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 14, 24, 26, 30, 34, 49, 51, 67, 70]
+04/27/2026 08:53:47 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 5.522s for 7 factories
+04/27/2026 08:53:47 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 39, 42, 63, 65, 67]
+04/27/2026 08:53:47 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 18, 21, 28, 29, 31, 34, 54, 56, 58, 66, 68, 69]
+04/27/2026 08:53:47 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 30, 32, 37, 38, 40, 41, 45, 46, 47, 52, 62], cost=1477.30, theta_est=0.00
+04/27/2026 08:53:47 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 27, 51, 61, 70], cost=2442.26, theta_est=0.00
+04/27/2026 08:53:47 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 157   192 28241.5190    8   25 18905.9198 28307.8471  49.7%  14.9 1243s
+04/27/2026 08:54:14 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 26.678s for 7 factories
+04/27/2026 08:54:14 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 2, 15, 23, 25, 30, 42, 47, 65]
+04/27/2026 08:54:14 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 14, 18, 21, 28, 29, 31, 34, 54, 56, 58, 61, 68, 69]
+04/27/2026 08:54:14 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 20, 32, 37, 38, 39, 40, 41, 44, 45, 46, 52, 62], cost=1473.36, theta_est=0.00
+04/27/2026 08:54:14 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 51, 66, 67, 70], cost=1549.34, theta_est=0.00
+04/27/2026 08:54:24 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 9.481s for 7 factories
+04/27/2026 08:54:24 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 39, 42, 62, 65]
+04/27/2026 08:54:24 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[12, 14, 21, 29, 31, 54, 55, 56, 58, 61, 66, 68, 69], cost=1552.93, theta_est=0.00
+04/27/2026 08:54:24 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 30, 32, 37, 38, 40, 41, 44, 45, 46, 47, 52], cost=1646.85, theta_est=0.00
+04/27/2026 08:54:24 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 34, 51, 67], cost=913.86, theta_est=-0.00
+04/27/2026 08:54:38 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 13.929s for 7 factories
+04/27/2026 08:54:38 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 30, 31, 42, 47, 65]
+04/27/2026 08:54:38 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[12, 18, 21, 28, 29, 54, 55, 56, 58, 61, 66, 68, 69], cost=1736.12, theta_est=0.00
+04/27/2026 08:54:38 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 32, 34, 37, 38, 39, 40, 41, 45, 46, 52, 62], cost=1154.58, theta_est=0.00
+04/27/2026 08:54:38 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 27, 51, 67, 70], cost=1316.38, theta_est=0.00
+04/27/2026 08:54:38 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 351   432 28067.5621   16   16 18905.9198 28307.8471  49.7%  10.2 1293s
+04/27/2026 08:55:08 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 29.893s for 7 factories
+04/27/2026 08:55:08 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 31, 42, 62, 65]
+04/27/2026 08:55:08 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[11, 12, 14, 21, 28, 29, 34, 54, 56, 58, 61, 66, 68, 69]
+04/27/2026 08:55:08 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 30, 32, 37, 39, 40, 41, 44, 45, 46, 47, 52], cost=1901.93, theta_est=30.56
+04/27/2026 08:55:08 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 38, 51, 67, 70], cost=2465.85, theta_est=0.00
+04/27/2026 08:55:15 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 6.785s for 7 factories
+04/27/2026 08:55:15 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 39, 42, 49, 63, 65]
+04/27/2026 08:55:15 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[12, 14, 21, 25, 28, 29, 31, 34, 54, 56, 58, 66, 68]
+04/27/2026 08:55:15 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 8, 19, 32, 37, 38, 40, 41, 45, 46, 47, 52, 61, 62], cost=959.89, theta_est=0.00
+04/27/2026 08:55:15 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 30, 51, 67, 70], cost=1599.50, theta_est=0.00
+04/27/2026 08:55:44 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 29.349s for 7 factories
+04/27/2026 08:55:44 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 39, 42, 65, 67]
+04/27/2026 08:55:44 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 11, 12, 21, 29, 31, 54, 55, 56, 58, 66, 68, 69]
+04/27/2026 08:55:44 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 17, 19, 20, 32, 37, 38, 41, 44, 46, 47, 52, 62], cost=1944.09, theta_est=0.00
+04/27/2026 08:55:44 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 14, 24, 26, 30, 34, 51, 61, 70]
+04/27/2026 08:56:07 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 23.232s for 7 factories
+04/27/2026 08:56:07 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 2, 15, 18, 23, 25, 30, 42, 65]
+04/27/2026 08:56:07 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 11, 12, 21, 29, 31, 55, 56, 58, 61, 66, 68, 69]
+04/27/2026 08:56:07 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 20, 32, 37, 38, 39, 40, 41, 45, 46, 47, 52, 62], cost=1454.82, theta_est=0.00
+04/27/2026 08:56:07 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 14, 24, 26, 34, 49, 51, 67, 70]
+04/27/2026 08:56:20 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 12.407s for 7 factories
+04/27/2026 08:56:20 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=2, orders=[27, 64, 70], cost=431.03, theta_est=0.00
+04/27/2026 08:56:20 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 39, 42, 63, 65]
+04/27/2026 08:56:20 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[12, 18, 21, 28, 29, 31, 54, 55, 56, 58, 61, 68, 69], cost=2137.95, theta_est=0.00
+04/27/2026 08:56:20 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 30, 32, 37, 40, 41, 44, 45, 46, 47, 52, 62], cost=1072.35, theta_est=0.00
+04/27/2026 08:56:20 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 14, 24, 26, 34, 38, 51, 66, 67]
+04/27/2026 08:56:41 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 20.738s for 7 factories
+04/27/2026 08:56:41 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 25, 30, 42, 49, 65, 67]
+04/27/2026 08:56:41 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 14, 21, 28, 29, 31, 50, 54, 55, 56, 68, 69]
+04/27/2026 08:56:41 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 32, 37, 38, 39, 40, 41, 46, 47, 52, 62], cost=1469.24, theta_est=0.32
+04/27/2026 08:56:41 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 26, 27, 34, 51, 58, 61, 66], cost=2139.56, theta_est=0.00
+04/27/2026 08:56:49 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 7.970s for 7 factories
+04/27/2026 08:56:49 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 39, 42, 63]
+04/27/2026 08:56:49 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 12, 14, 21, 28, 29, 31, 34, 50, 54, 56, 58, 68]
+04/27/2026 08:56:49 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 32, 37, 38, 40, 41, 46, 47, 52, 62, 69], cost=2057.95, theta_est=155.41
+04/27/2026 08:56:49 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 27, 51, 61, 66, 67]
+04/27/2026 08:56:49 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 651   790 27921.5671   26    6 18905.9198 28307.8471  49.7%   7.7 1424s
+04/27/2026 08:57:43 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 54.352s for 7 factories
+04/27/2026 08:57:43 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 20, 23, 25, 30, 42, 47, 65]
+04/27/2026 08:57:43 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[2, 12, 14, 18, 21, 29, 54, 55, 56, 58, 61, 66, 68, 69], cost=2812.29, theta_est=63.95
+04/27/2026 08:57:43 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 32, 34, 37, 38, 39, 40, 41, 44, 45, 46, 52, 62], cost=1351.56, theta_est=0.00
+04/27/2026 08:57:43 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 31, 51, 67, 70], cost=2781.45, theta_est=0.00
+04/27/2026 08:58:00 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 17.467s for 7 factories
+04/27/2026 08:58:00 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 2, 15, 18, 23, 25, 31, 42, 65]
+04/27/2026 08:58:00 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[11, 14, 21, 28, 29, 54, 55, 56, 58, 61, 66, 68, 69], cost=1708.90, theta_est=0.00
+04/27/2026 08:58:00 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 20, 32, 37, 39, 40, 41, 44, 45, 46, 47, 52, 62], cost=1057.24, theta_est=85.80
+04/27/2026 08:58:00 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 30, 34, 38, 51, 67, 70]
+04/27/2026 08:58:07 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 6.129s for 7 factories
+04/27/2026 08:58:07 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 38, 42, 63, 65]
+04/27/2026 08:58:07 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[2, 18, 21, 28, 29, 31, 34, 54, 55, 56, 58, 61, 68], cost=1417.47, theta_est=0.00
+04/27/2026 08:58:07 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 30, 32, 37, 39, 40, 41, 45, 46, 47, 52, 62, 69], cost=1133.09, theta_est=15.34
+04/27/2026 08:58:07 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 27, 51, 66, 67], cost=1581.31, theta_est=0.00
+04/27/2026 08:58:14 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 7.090s for 7 factories
+04/27/2026 08:58:14 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 13, 15, 23, 25, 39, 42, 65]
+04/27/2026 08:58:14 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 11, 12, 18, 21, 29, 31, 54, 55, 56, 58, 68, 69]
+04/27/2026 08:58:14 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 17, 19, 20, 32, 37, 38, 41, 44, 45, 46, 52, 62], cost=1869.33, theta_est=0.00
+04/27/2026 08:58:14 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 14, 24, 26, 30, 34, 51, 61, 66, 67, 70]
+04/27/2026 08:58:34 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 20.190s for 7 factories
+04/27/2026 08:58:34 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 19, 25, 30, 42, 49, 67]
+04/27/2026 08:58:34 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 6, 12, 14, 21, 28, 29, 31, 50, 55, 56, 68, 69]
+04/27/2026 08:58:34 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=5, conflict orders=[2, 3, 8, 20, 32, 37, 38, 39, 40, 41, 43, 46, 47, 52, 62]
+04/27/2026 08:58:34 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 26, 27, 34, 51, 58, 61], cost=1457.50, theta_est=0.00
+04/27/2026 08:59:18 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 44.308s for 7 factories
+04/27/2026 08:59:18 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 30, 38, 42, 65]
+04/27/2026 08:59:18 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 14, 21, 28, 29, 31, 34, 54, 56, 58, 61, 66, 68, 69]
+04/27/2026 08:59:18 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 32, 37, 39, 40, 41, 43, 44, 45, 46, 52, 62], cost=1815.62, theta_est=90.04
+04/27/2026 08:59:18 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 36, 51, 67, 70], cost=1771.16, theta_est=0.00
+04/27/2026 08:59:28 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 9.329s for 7 factories
+04/27/2026 08:59:28 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 42, 63, 65, 67]
+04/27/2026 08:59:28 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[2, 11, 12, 14, 18, 21, 28, 29, 31, 55, 56, 58, 68, 69]
+04/27/2026 08:59:28 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 30, 32, 37, 39, 40, 41, 43, 44, 46, 47, 52, 62], cost=1092.18, theta_est=0.00
+04/27/2026 08:59:28 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 34, 38, 51, 61, 66, 70]
+04/27/2026 08:59:35 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 7.013s for 7 factories
+04/27/2026 08:59:35 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[15, 23, 25, 42, 62, 63, 65, 67]
+04/27/2026 08:59:35 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 18, 21, 28, 29, 34, 50, 54, 56, 58, 61, 68]
+04/27/2026 08:59:35 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[1, 2, 8, 19, 30, 32, 37, 39, 40, 41, 44, 45, 46, 47, 52], cost=2495.33, theta_est=5.35
+04/27/2026 08:59:35 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 14, 24, 26, 27, 38, 51, 66]
+04/27/2026 08:59:40 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 5.658s for 7 factories
+04/27/2026 08:59:40 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 30, 39, 42, 63]
+04/27/2026 08:59:40 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 18, 21, 28, 29, 31, 34, 50, 54, 56, 58, 66, 68]
+04/27/2026 08:59:40 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 19, 20, 32, 37, 38, 40, 41, 47, 52, 62, 69], cost=1101.84, theta_est=0.00
+04/27/2026 08:59:40 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 27, 51, 61, 67], cost=2663.74, theta_est=0.00
+04/27/2026 08:59:49 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 8.904s for 7 factories
+04/27/2026 08:59:49 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[15, 18, 23, 25, 30, 39, 42, 47, 65, 67]
+04/27/2026 08:59:49 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[2, 6, 12, 14, 21, 54, 55, 56, 58, 61, 66, 68, 69]
+04/27/2026 08:59:49 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[1, 3, 8, 19, 20, 32, 34, 37, 38, 40, 41, 45, 46, 52, 62], cost=2469.03, theta_est=241.40
+04/27/2026 08:59:49 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 31, 36, 51, 70], cost=2952.28, theta_est=90.03
+04/27/2026 09:00:03 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 13.633s for 7 factories
+04/27/2026 09:00:03 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 31, 42, 62, 65, 67]
+04/27/2026 09:00:03 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[11, 12, 14, 18, 21, 28, 29, 34, 54, 56, 58, 61, 68, 69]
+04/27/2026 09:00:03 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 8, 19, 20, 30, 32, 37, 39, 40, 41, 43, 44, 45, 46, 47, 52], cost=2211.70, theta_est=0.00
+04/27/2026 09:00:03 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 27, 38, 51, 66, 70]
+04/27/2026 09:00:21 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 17.742s for 7 factories
+04/27/2026 09:00:21 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 2, 15, 23, 25, 39, 42, 65, 67]
+04/27/2026 09:00:21 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[11, 12, 18, 21, 28, 29, 31, 49, 54, 56, 58, 66, 68, 69]
+04/27/2026 09:00:21 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 20, 32, 37, 38, 40, 41, 44, 45, 46, 47, 52, 62], cost=1839.18, theta_est=96.40
+04/27/2026 09:00:21 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 34, 51, 61, 70], cost=2352.38, theta_est=0.00
+04/27/2026 09:00:22 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 951  1071 27896.7427   39   10 18905.9198 28307.8471  49.7%   6.5 1637s
+04/27/2026 09:01:23 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 61.176s for 7 factories
+04/27/2026 09:01:23 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 31, 42, 47, 65, 67]
+04/27/2026 09:01:23 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[11, 12, 14, 21, 28, 29, 54, 55, 56, 58, 61, 68, 69]
+04/27/2026 09:01:23 AM INFO lbbd_mip_v1_solver - print: Subproblem timeout without solution: factory=5
+04/27/2026 09:01:23 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 30, 34, 38, 51, 66, 70]
+04/27/2026 09:01:26 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 3.447s for 7 factories
+04/27/2026 09:01:26 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 42, 43, 63, 65]
+04/27/2026 09:01:26 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[2, 9, 11, 12, 14, 18, 21, 28, 31, 55, 56, 58, 68, 69]
+04/27/2026 09:01:26 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 30, 32, 34, 37, 39, 40, 41, 44, 46, 47, 52, 62], cost=1235.24, theta_est=0.00
+04/27/2026 09:01:26 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 38, 51, 61, 66, 67, 70]
+04/27/2026 09:01:49 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 22.354s for 7 factories
+04/27/2026 09:01:49 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 30, 42, 65]
+04/27/2026 09:01:49 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[2, 6, 12, 21, 29, 31, 55, 56, 58, 61, 66, 68, 69]
+04/27/2026 09:01:49 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 20, 32, 37, 38, 39, 41, 44, 45, 46, 47, 52, 62], cost=1997.71, theta_est=0.00
+04/27/2026 09:01:49 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 34, 51, 67, 70], cost=1031.97, theta_est=0.00
+04/27/2026 09:02:17 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 28.807s for 7 factories
+04/27/2026 09:02:17 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 20, 23, 25, 42, 62, 65, 67]
+04/27/2026 09:02:17 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 9, 11, 12, 14, 18, 21, 29, 34, 56, 58, 66, 68, 69]
+04/27/2026 09:02:17 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=5, conflict orders=[2, 3, 8, 19, 30, 32, 37, 38, 41, 44, 45, 46, 47, 52, 57, 60]
+04/27/2026 09:02:17 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 27, 39, 51, 61, 70]
+04/27/2026 09:02:18 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] 1084  1274 27896.6278   40    6 18905.9198 28307.8471  49.7%   6.1 1753s
+04/27/2026 09:03:19 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 61.343s for 7 factories
+04/27/2026 09:03:19 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 31, 42, 47, 65, 67]
+04/27/2026 09:03:19 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[11, 12, 14, 21, 25, 28, 29, 54, 55, 56, 58, 61, 69]
+04/27/2026 09:03:19 AM INFO lbbd_mip_v1_solver - print: Subproblem timeout without solution: factory=5
+04/27/2026 09:03:19 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 30, 34, 38, 51, 70]
+04/27/2026 09:03:27 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 8.094s for 7 factories
+04/27/2026 09:03:27 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 13, 23, 25, 30, 32, 39, 42, 65]
+04/27/2026 09:03:27 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 12, 18, 21, 29, 31, 46, 54, 55, 56, 58, 68, 69]
+04/27/2026 09:03:27 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[2, 3, 8, 15, 19, 20, 37, 38, 41, 44, 45, 47, 52, 62], cost=2678.68, theta_est=32.11
+04/27/2026 09:03:27 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 14, 24, 26, 34, 51, 61, 66, 67, 70], cost=2942.08, theta_est=0.00
+04/27/2026 09:04:11 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 44.148s for 7 factories
+04/27/2026 09:04:11 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 2, 15, 23, 25, 39, 42, 43, 65]
+04/27/2026 09:04:11 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[12, 18, 21, 28, 29, 31, 34, 49, 54, 56, 58, 66, 68, 69]
+04/27/2026 09:04:11 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 11, 19, 20, 32, 37, 38, 40, 41, 44, 45, 47, 52, 62], cost=1861.17, theta_est=175.51
+04/27/2026 09:04:11 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 14, 24, 26, 30, 51, 61, 70]
+04/27/2026 09:05:03 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 52.103s for 7 factories
+04/27/2026 09:05:03 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 23, 25, 42, 63, 67]
+04/27/2026 09:05:03 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[2, 12, 14, 21, 29, 31, 54, 55, 56, 58, 61, 68, 69], cost=1687.64, theta_est=0.00
+04/27/2026 09:05:03 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 32, 37, 38, 39, 40, 41, 44, 45, 46, 47, 52, 62], cost=1651.18, theta_est=45.68
+04/27/2026 09:05:03 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 24, 26, 27, 49, 51, 66, 70], cost=2896.37, theta_est=0.00
+04/27/2026 09:05:07 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 3.924s for 7 factories
+04/27/2026 09:05:07 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=1, orders=[16, 70], cost=122.63, theta_est=0.00
+04/27/2026 09:05:07 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 23, 25, 42, 63, 65]
+04/27/2026 09:05:07 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[2, 11, 12, 14, 18, 21, 22, 28, 31, 55, 56, 58, 68, 69]
+04/27/2026 09:05:07 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=5, orders=[3, 8, 19, 30, 32, 39, 40, 41, 43, 44, 46, 47, 52, 62, 66], cost=773.61, theta_est=0.00
+04/27/2026 09:05:07 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 7, 13, 24, 26, 34, 38, 51, 61, 67]
+04/27/2026 09:05:24 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 16.382s for 7 factories
+04/27/2026 09:05:24 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 2, 18, 23, 25, 30, 42, 65, 67]
+04/27/2026 09:05:24 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=4, orders=[6, 12, 21, 29, 31, 55, 56, 58, 61, 66, 68, 69], cost=2214.35, theta_est=0.00
+04/27/2026 09:05:24 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=5, conflict orders=[3, 8, 15, 19, 20, 32, 37, 38, 41, 44, 45, 46, 47, 52, 62]
+04/27/2026 09:05:24 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 7, 13, 14, 24, 26, 34, 39, 51, 70], cost=1322.53, theta_est=0.00
+04/27/2026 09:06:24 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 60.133s for 7 factories
+04/27/2026 09:06:24 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 15, 18, 19, 23, 25, 39, 42, 65]
+04/27/2026 09:06:24 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[6, 9, 11, 12, 14, 21, 55, 56, 58, 61, 66, 68, 69]
+04/27/2026 09:06:24 AM INFO lbbd_mip_v1_solver - print: Subproblem timeout without solution: factory=5
+04/27/2026 09:06:24 AM INFO lbbd_mip_v1_solver - print:  Added optimal optimality cut: factory=6, orders=[5, 13, 24, 26, 27, 34, 36, 51, 67, 70], cost=1934.03, theta_est=0.00
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: >>>Parallel subproblem time: 2.089s for 7 factories
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=3, conflict orders=[15, 19, 23, 25, 42, 62, 65, 67]
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 9, 11, 12, 14, 18, 21, 34, 56, 58, 60, 66, 68, 69]
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=5, conflict orders=[1, 2, 3, 8, 30, 32, 37, 38, 41, 44, 45, 46, 47, 52, 57]
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print:  Added feasibility cut: factory=6, conflict orders=[5, 13, 24, 26, 27, 39, 51, 61, 70]
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Cutting planes:
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Gomory: 1
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] MIR: 59
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Lazy constraints: 325
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Explored 1304 nodes (7741 simplex iterations) in 2002.06 seconds (0.18 work units)
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Thread count was 20 (of 20 available processors)
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Solution count 8: 18905.9 6875.98 6358.38 ... -0
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Time limit reached
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] Best objective 1.890591979766e+04, best bound 2.830784706072e+04, gap 49.7301%
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - _callback: [Gurobi] User-callback calls 3696, time in user-callback 1998.15 sec
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: 
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: ============================================================
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Branch-and-Check LBBD Summary
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: ============================================================
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Status: TIME_LIMIT
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Runtime: 2002.10s
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Iterations: 95
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Initial UB: 75035.85
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Module times (s): preprocess=0.001, enhancement=2.740, modeling=0.004, solving=2002.103
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Master time: 4.028s
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Average subproblem time: 3.4937s
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Lazy cuts added: 325
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print:   - feasibility cuts: 184
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print:   - optimality cuts: 141
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Subproblems solved: 632
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Subproblem time total: 2208.02s
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Subproblem time avg: 3.4937s
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Best objective: 18905.99
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Best bound: 28307.85
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: Final MIP gap: 49.73%
+04/27/2026 09:06:26 AM INFO lbbd_mip_v1_solver - print: ============================================================
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print: 
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print: ------------------------------------------------------------
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print: Subproblem Diagnostics
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print: ------------------------------------------------------------
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print: Total subproblems: 632
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print:   infeasible: 184 (29.11%)
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print:   optimal: 439 (69.46%)
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print:   time_limit_feasible: 1 (0.16%)
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print:   time_limit_no_solution: 8 (1.27%)
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print: Avg subproblem gap: 0.12% (n=160)
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print: Avg subproblem objective: 646.039 (n=440)
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print: Avg subproblem bound: 645.227 (n=440)
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print: Avg (obj - bound) / |obj|: 0.13%
+04/27/2026 09:06:35 AM INFO lbbd_mip_v1_solver - print: ------------------------------------------------------------

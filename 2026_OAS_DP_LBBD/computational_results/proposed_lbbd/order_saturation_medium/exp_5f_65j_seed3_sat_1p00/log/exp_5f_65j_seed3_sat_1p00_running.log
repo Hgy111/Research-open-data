@@ -1,0 +1,948 @@
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - setup_solver_logging: ================================================================================
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - setup_solver_logging: Logging started. Log file: D:\Project_Code\Paper\DP_LBBD_1\DP_lbbd\Algorithm\Results\proposed_lbbd\order_saturation_medium\exp_5f_65j_seed3_sat_1p00\log\exp_5f_65j_seed3_sat_1p00_running.log
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: Feasible pairs: 212/325
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 16 → factory 1 (E=73.26 > deadline=71.60)
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 55 → factory 1 (E=86.45 > deadline=80.50)
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 50 → factory 1 (E=89.02 > deadline=83.40)
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 12 → factory 1 (E=64.76 > deadline=64.50)
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignment detected: order 38 → factory 1 (E=96.02 > deadline=94.90)
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Infeasible assignments detected: 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 1 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 2 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 3 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 4 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 5 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 5 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 9 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 9 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 10 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 12 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 12 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 12 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 13 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 13 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 14 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 15 → factory 3
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 15 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 16 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 16 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 18 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 19 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 20 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 20 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 21 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 23 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 23 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 23 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 24 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 24 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 25 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 26 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 26 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 27 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 27 → factory 3
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 28 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 28 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 28 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 29 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 29 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 30 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 30 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 33 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 33 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 34 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 34 → factory 3
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 35 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 35 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 35 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 37 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 37 → factory 3
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 37 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 38 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 39 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 40 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 40 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 43 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 43 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 44 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 44 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 44 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 45 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 46 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 46 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 47 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 48 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 48 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 49 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 49 → factory 3
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 49 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 50 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 51 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 51 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 51 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 52 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 52 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 52 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 55 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 55 → factory 3
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 55 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 55 → factory 5
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 57 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 57 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 59 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 59 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 60 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 61 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 62 → factory 3
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 62 → factory 4
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignment detected: order 65 → factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable assignments: 89
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Unprofitable orders: 0
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] High-risk orders: 44
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 10 and order 12 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 10 and order 13 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 10 and order 16 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 10 and order 38 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 10 and order 50 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 10 and order 55 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 12 and order 13 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 12 and order 16 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 12 and order 19 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 12 and order 27 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 12 and order 34 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 12 and order 38 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 12 and order 50 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 12 and order 55 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 13 and order 16 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 13 and order 38 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 13 and order 50 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 13 and order 55 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 16 and order 19 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 16 and order 27 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 16 and order 34 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 16 and order 38 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 16 and order 50 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 16 and order 55 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 19 and order 27 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 19 and order 34 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 19 and order 38 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 19 and order 50 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 19 and order 55 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 27 and order 34 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 27 and order 38 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 27 and order 50 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 27 and order 55 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 34 and order 38 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 34 and order 50 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 34 and order 55 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 38 and order 50 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 38 and order 55 in factory 1
+05/05/2026 02:31:28 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 50 and order 55 in factory 1
+05/05/2026 02:31:29 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 6 and order 61 in factory 3
+05/05/2026 02:31:29 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 15 and order 27 in factory 3
+05/05/2026 02:31:29 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 49 and order 50 in factory 3
+05/05/2026 02:31:29 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 49 and order 61 in factory 3
+05/05/2026 02:31:29 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 50 and order 62 in factory 3
+05/05/2026 02:31:29 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 33 and order 42 in factory 4
+05/05/2026 02:31:29 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 33 and order 46 in factory 4
+05/05/2026 02:31:29 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflict detected: order 39 and order 56 in factory 4
+05/05/2026 02:31:30 PM INFO proposed_lbbd_solver - print: [Preprocess] Pairwise conflicts detected: 47
+05/05/2026 02:31:30 PM INFO proposed_lbbd_solver - print: [Preprocess] Factory 2 has 7 clusters from 40 orders
+05/05/2026 02:31:30 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 2, orders [9, 15, 27, 19, 3, 16, 12, 21, 5, 31]
+05/05/2026 02:31:30 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 2, orders [6, 11, 14, 33, 46, 52, 53]
+05/05/2026 02:31:30 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 2, orders [13, 20, 24, 28, 38, 50, 55]
+05/05/2026 02:31:30 PM INFO proposed_lbbd_solver - print: [Preprocess] Factory 3 has 6 clusters from 33 orders
+05/05/2026 02:31:30 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 3, orders [1, 13, 20, 38, 42, 50, 60, 61]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 3, orders [4, 5, 8, 9, 16, 21, 45, 65]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 3, orders [29, 35, 39, 44, 51, 63]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Preprocess] Factory 4 has 4 clusters from 20 orders
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 4, orders [7, 10, 13, 22, 32, 43, 54, 58]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 4, orders [17, 39, 56, 64]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Preprocess] Factory 5 has 4 clusters from 23 orders
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 5, orders [25, 45, 4, 19, 8, 21, 50, 31, 40, 36]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflict detected: factory 5, orders [17, 18, 29, 39, 41, 56, 63]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Preprocess] Cluster conflicts detected: 10
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Master Enhancement] Capacity feasibility enhancement constrains: 6035
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Master Modeling] Earliest completion lower bounds constraints: 4
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Master Modeling] Makespan-based delay bounds constraints: 18
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Master Enhancement] Lower bound delay cost enhancement constrains: 8031
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: 
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Model Statistics]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print:   Variables: 292
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print:   Constraints: 14223
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: 
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Preprocess Statistics]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print:   Infeasible eliminated: 5
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print:   Unprofitable orders: 0
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print:   Unprofitable assignments: 89
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print:   Pairwise conflicts: 47
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print:   Cluster conflicts: 10
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: 
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: [Master Enhancement Statistics]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print:   Capacity feasibility enhancement constrains: 6035
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print:   Lower bound delay cost enhancement constrains: 8031
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - _callback: [Gurobi] CPU model: Intel(R) Core(TM) Ultra 7 265KF, instruction set [SSE2|AVX|AVX2]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Thread count: 20 physical cores, 20 logical processors, using up to 20 threads
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Optimize a model with 14223 rows, 292 columns and 183462 nonzeros
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Model fingerprint: 0xb2f266c4
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Variable types: 15 continuous, 277 integer (277 binary)
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Coefficient statistics:
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Matrix range     [1e+00, 1e+03]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Objective range  [1e+00, 2e+03]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Bounds range     [1e+00, 4e+04]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - _callback: [Gurobi] RHS range        [1e+00, 6e+03]
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=0.00, delay=0.00, bound=10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.00, gap=999999999999999977049513265245336628446842719924150006129995974731993452180789911303261294481511546880.00%, t=0.0s
+05/05/2026 02:31:31 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Found heuristic solution: objective -0.0000000
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Presolve removed 4078 rows and 108 columns
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Presolve time: 0.14s
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Presolved: 10145 rows, 184 columns, 139354 nonzeros
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Variable types: 15 continuous, 169 integer (169 binary)
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.029s for 5 factories
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=3, conflict orders=[1, 5, 6, 9, 13, 26, 33, 39, 57]
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 8, 10, 19, 47], cost=101.21, theta_est=0.00
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=5, conflict orders=[14, 17, 18, 21, 22, 25, 29, 31, 45]
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Root relaxation presolved: 10148 rows, 184 columns, 139379 nonzeros
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Root relaxation: objective 1.915767e+04, 138 iterations, 0.03 seconds (0.08 work units)
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Nodes    |    Current Node    |     Objective Bounds      |     Work
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 19157.6651    0   39   -0.00000 19157.6651      -     -    0s
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[41, 58, 64], cost=262.03, theta_est=4.10
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 17, 19, 32, 47], cost=226.79, theta_est=0.00
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 25, 39, 40, 45, 56, 61], cost=285.42, theta_est=0.00
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=15710.67, delay=774.24, bound=19157.67, gap=21.94%, t=0.3s
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.021s for 5 factories
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    15710.672911 19157.6651  21.9%     -    0s
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.027s for 5 factories
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 23, 27, 31, 35, 37, 38, 44, 52, 59], cost=2060.01, theta_est=403.06
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 7, 10, 17, 19, 32, 47, 54]
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.032s for 5 factories
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 7, 10, 17, 19, 32, 54]
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 25, 39, 40, 42, 45, 56, 61], cost=2001.80, theta_est=307.73
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.025s for 5 factories
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[41, 42, 58, 64], cost=679.28, theta_est=262.03
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 17, 19, 32, 47], cost=439.72, theta_est=226.79
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=16123.00, delay=1404.43, bound=19157.67, gap=18.82%, t=0.4s
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.027s for 5 factories
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    15770.112242 19157.6651  21.5%     -    0s
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 19063.5930    0   41 15770.1122 19063.5930  20.9%     -    0s
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.019s for 5 factories
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    16122.952825 19063.5930  18.2%     -    0s
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.064s for 5 factories
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 27, 31, 35, 38, 43, 44, 52, 59], cost=260.15, theta_est=0.01
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 17, 19, 32, 47, 54], cost=807.32, theta_est=439.73
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 25, 39, 40, 41, 45, 56, 61], cost=939.49, theta_est=285.43
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=16620.74, delay=2006.95, bound=19063.59, gap=14.70%, t=0.8s
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.057s for 5 factories
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 23, 27, 31, 35, 36, 38, 44, 52, 59], cost=2997.53, theta_est=536.20
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 19, 32, 47, 58], cost=1345.78, theta_est=434.92
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=5, conflict orders=[8, 17, 18, 22, 25, 39, 40, 45, 56, 61]
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18986.9765    0   47 16122.9528 18986.9765  17.8%     -    0s
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18972.5756    0   37 16122.9528 18972.5756  17.7%     -    0s
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18969.7931    0   41 16122.9528 18969.7931  17.7%     -    0s
+05/05/2026 02:31:32 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18969.7021    0   41 16122.9528 18969.7021  17.7%     -    0s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18930.6120    0   44 16122.9528 18930.6120  17.4%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    16123.002825 18930.6120  17.4%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18927.1399    0   50 16123.0028 18927.1399  17.4%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18925.0659    0   48 16123.0028 18925.0659  17.4%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18924.6971    0   50 16123.0028 18924.6971  17.4%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18924.1007    0   50 16123.0028 18924.1007  17.4%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18923.7494    0   52 16123.0028 18923.7494  17.4%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18923.6904    0   52 16123.0028 18923.6904  17.4%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18899.9098    0   48 16123.0028 18899.9098  17.2%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.035s for 5 factories
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 27, 31, 35, 37, 38, 44, 52, 59], cost=1421.75, theta_est=259.35
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18889.8560    0   48 16123.0028 18889.8560  17.2%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18880.9729    0   50 16123.0028 18880.9729  17.1%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18880.4203    0   48 16123.0028 18880.4203  17.1%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18877.5638    0   50 16123.0028 18877.5638  17.1%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18876.3642    0   47 16123.0028 18876.3642  17.1%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18875.5249    0   50 16123.0028 18875.5249  17.1%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18875.3536    0   50 16123.0028 18875.3536  17.1%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18874.8972    0   50 16123.0028 18874.8972  17.1%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18874.4477    0   51 16123.0028 18874.4477  17.1%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18874.4415    0   51 16123.0028 18874.4415  17.1%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18858.4939    0   44 16123.0028 18858.4939  17.0%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[41, 42, 54, 64], cost=1964.29, theta_est=113.54
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    16519.868589 18858.4939  14.2%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18851.0676    0   46 16519.8686 18851.0676  14.1%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18843.5949    0   51 16519.8686 18843.5949  14.1%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18842.9245    0   51 16519.8686 18842.9245  14.1%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18842.8431    0   51 16519.8686 18842.8431  14.1%     -    1s
+05/05/2026 02:31:33 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18842.7085    0   51 16519.8686 18842.7085  14.1%     -    1s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18830.9324    0   50 16519.8686 18830.9324  14.0%     -    2s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.027s for 5 factories
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 31, 35, 37, 38, 43, 44, 59], cost=185.36, theta_est=116.55
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 19, 25, 32, 47, 54], cost=1481.35, theta_est=385.86
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 22, 39, 40, 45, 56, 61], cost=1090.99, theta_est=180.07
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18830.4456    0   53 16519.8686 18830.4456  14.0%     -    2s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18830.3666    0   53 16519.8686 18830.3666  14.0%     -    2s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18830.2429    0   53 16519.8686 18830.2429  14.0%     -    2s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18829.1428    0   53 16519.8686 18829.1428  14.0%     -    2s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18829.0873    0   53 16519.8686 18829.0873  14.0%     -    2s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18823.2707    0   53 16519.8686 18823.2707  13.9%     -    2s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.023s for 5 factories
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=16811.48, delay=725.15, bound=18823.27, gap=11.97%, t=2.5s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    16811.476064 18823.2707  12.0%     -    2s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18822.1182    0   53 16811.4761 18822.1182  12.0%     -    2s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18821.0305    0   53 16811.4761 18821.0305  12.0%     -    2s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18820.8345    0   53 16811.4761 18820.8345  12.0%     -    2s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18820.7239    0   53 16811.4761 18820.7239  12.0%     -    2s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18819.7672    0   52 16811.4761 18819.7672  11.9%     -    2s
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 23, 27, 35, 37, 38, 44, 46, 52, 59], cost=347.77, theta_est=182.85
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 17, 19, 32, 47, 64], cost=2211.26, theta_est=439.72
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 21, 22, 25, 39, 40, 45, 56, 61], cost=1424.79, theta_est=285.42
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.028s for 5 factories
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 23, 27, 31, 35, 37, 38, 44, 52, 59], cost=312.73, theta_est=34.52
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 6, 9, 11, 26, 29, 42, 57, 60, 63, 65], cost=2128.56, theta_est=401.52
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 19, 25, 47, 54, 58], cost=1082.10, theta_est=328.91
+05/05/2026 02:31:34 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18819.7368    0   52 16811.4761 18819.7368  11.9%     -    2s
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18813.2612    0   54 16811.4761 18813.2612  11.9%     -    3s
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.016s for 5 factories
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 19, 25, 47, 54, 64], cost=287.33, theta_est=0.00
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 21, 22, 39, 40, 45, 61], cost=702.79, theta_est=0.00
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18813.0428    0   55 16811.4761 18813.0428  11.9%     -    3s
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18812.9194    0   55 16811.4761 18812.9194  11.9%     -    3s
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18812.8782    0   55 16811.4761 18812.8782  11.9%     -    3s
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18812.8283    0   56 16811.4761 18812.8283  11.9%     -    3s
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18809.1386    0   54 16811.4761 18809.1386  11.9%     -    3s
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.022s for 5 factories
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 23, 27, 31, 35, 38, 44, 52, 59], cost=150.33, theta_est=0.00
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 9, 11, 26, 29, 42, 57, 60, 63, 65], cost=3018.14, theta_est=439.90
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 19, 25, 32, 47, 54, 58], cost=1917.17, theta_est=628.46
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.019s for 5 factories
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 23, 27, 31, 35, 38, 44, 52, 59], cost=462.72, theta_est=150.33
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 9, 11, 26, 29, 42, 57, 60, 63, 65], cost=227.07, theta_est=119.86
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 7, 10, 17, 19, 32, 47, 58]
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18805.3201    0   61 16811.4761 18805.3201  11.9%     -    3s
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18805.2065    0   59 16811.4761 18805.2065  11.9%     -    3s
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18805.1714    0   59 16811.4761 18805.1714  11.9%     -    3s
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18802.4788    0   59 16811.4761 18802.4788  11.8%     -    3s
+05/05/2026 02:31:35 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18802.0978    0   58 16811.4761 18802.0978  11.8%     -    3s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18794.5579    0   58 16811.4761 18794.5579  11.8%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.029s for 5 factories
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 23, 27, 31, 35, 38, 44, 52, 59], cost=150.33, theta_est=0.00
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 19, 47, 54, 58, 64], cost=493.12, theta_est=244.81
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 25, 39, 40, 42, 45, 56, 61], cost=183.95, theta_est=30.19
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.016s for 5 factories
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[32, 41, 64], cost=347.94, theta_est=199.95
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 19, 22, 47, 54, 58], cost=1046.23, theta_est=363.80
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18791.2357    0   59 16811.4761 18791.2357  11.8%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18789.5569    0   60 16811.4761 18789.5569  11.8%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18789.3690    0   55 16811.4761 18789.3690  11.8%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18789.1912    0   58 16811.4761 18789.1912  11.8%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18788.8569    0   58 16811.4761 18788.8569  11.8%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18788.8493    0   61 16811.4761 18788.8493  11.8%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18787.8667    0   56 16811.4761 18787.8667  11.8%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.024s for 5 factories
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 7, 10, 17, 19, 32, 43, 47]
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18786.7088    0   61 16811.4761 18786.7088  11.7%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18786.4246    0   57 16811.4761 18786.4246  11.7%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18786.1761    0   57 16811.4761 18786.1761  11.7%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18785.9076    0   57 16811.4761 18785.9076  11.7%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18785.5914    0   55 16811.4761 18785.5914  11.7%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18785.5110    0   55 16811.4761 18785.5110  11.7%     -    4s
+05/05/2026 02:31:36 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18785.5084    0   55 16811.4761 18785.5084  11.7%     -    4s
+05/05/2026 02:31:37 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18784.5182    0   55 16811.4761 18784.5182  11.7%     -    5s
+05/05/2026 02:31:37 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.022s for 5 factories
+05/05/2026 02:31:37 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 17, 19, 25, 32, 47], cost=1022.80, theta_est=439.72
+05/05/2026 02:31:37 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 39, 40, 42, 45, 56, 61], cost=1449.13, theta_est=218.11
+05/05/2026 02:31:37 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18784.5021    0   55 16811.4761 18784.5021  11.7%     -    5s
+05/05/2026 02:31:37 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18783.7421    0   54 16811.4761 18783.7421  11.7%     -    5s
+05/05/2026 02:31:37 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18783.6914    0   57 16811.4761 18783.6914  11.7%     -    5s
+05/05/2026 02:31:37 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18783.6770    0   57 16811.4761 18783.6770  11.7%     -    5s
+05/05/2026 02:31:37 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18783.5161    0   55 16811.4761 18783.5161  11.7%     -    5s
+05/05/2026 02:31:37 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18783.4969    0   57 16811.4761 18783.4969  11.7%     -    5s
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18783.1349    0   58 16811.4761 18783.1349  11.7%     -    6s
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18782.9633    0   58 16811.4761 18782.9633  11.7%     -    6s
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18782.8789    0   55 16811.4761 18782.8789  11.7%     -    6s
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18782.7887    0   56 16811.4761 18782.7887  11.7%     -    6s
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     0 18782.7887    0   56 16811.4761 18782.7887  11.7%     -    6s
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.067s for 5 factories
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 23, 27, 31, 35, 37, 38, 44, 53, 59], cost=473.60, theta_est=18.31
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 9, 11, 26, 29, 33, 42, 57, 60, 63, 65], cost=1324.40, theta_est=246.50
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 7, 10, 19, 47, 54, 58, 64]
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 22, 25, 39, 45, 56, 61], cost=578.59, theta_est=82.49
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.028s for 5 factories
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=1, conflict orders=[32, 41, 54, 64]
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 23, 27, 31, 35, 38, 44, 53, 59], cost=694.71, theta_est=87.09
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 17, 19, 25, 47, 58], cost=643.69, theta_est=90.83
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 21, 22, 39, 40, 45, 56, 61], cost=721.22, theta_est=0.00
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.062s for 5 factories
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[22, 41, 58, 64], cost=737.25, theta_est=262.03
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 23, 27, 31, 35, 37, 38, 43, 44, 53, 59], cost=574.43, theta_est=58.73
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 19, 32, 47, 54], cost=879.14, theta_est=157.18
+05/05/2026 02:31:38 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 21, 25, 39, 40, 45, 56, 61], cost=144.74, theta_est=0.00
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.029s for 5 factories
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[22, 32, 41, 64], cost=1361.45, theta_est=444.88
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 31, 35, 38, 43, 44, 53, 59], cost=812.67, theta_est=127.51
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 19, 47, 54, 58], cost=667.57, theta_est=100.23
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 25, 39, 40, 45, 56, 61], cost=144.74, theta_est=0.00
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.022s for 5 factories
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[32, 41, 58, 64], cost=1624.83, theta_est=634.64
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 23, 27, 31, 35, 37, 38, 44, 52, 59], cost=306.83, theta_est=101.08
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 9, 14, 26, 29, 42, 57, 60, 63, 65], cost=942.89, theta_est=200.17
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 17, 19, 25, 47, 54], cost=696.96, theta_est=120.77
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 39, 40, 45, 56, 61], cost=119.34, theta_est=0.00
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.025s for 5 factories
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 19, 23, 27, 31, 35, 37, 38, 44, 59], cost=2073.52, theta_est=407.40
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 7, 10, 17, 25, 32, 47, 54]
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 19, 23, 27, 35, 37, 38, 44, 52, 59], cost=614.39, theta_est=281.65
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 7, 10, 17, 32, 47, 54]
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=17414.16, delay=608.44, bound=18782.79, gap=7.86%, t=7.4s
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H    0     0                    17414.160309 18782.7887  7.86%     -    7s
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 19, 23, 27, 31, 35, 37, 38, 44, 59], cost=316.50, theta_est=38.86
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 25, 32, 47, 54, 64], cost=1514.63, theta_est=400.64
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 39, 40, 42, 45, 56, 61], cost=144.74, theta_est=14.66
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.027s for 5 factories
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 6, 8, 9, 26, 29, 57, 60, 63, 65], cost=245.96, theta_est=-0.00
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 32, 47, 54], cost=233.25, theta_est=4.61
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=5, conflict orders=[17, 18, 22, 25, 39, 40, 42, 45, 56, 61]
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.022s for 5 factories
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 8, 9, 26, 29, 42, 57, 60, 63, 65], cost=752.05, theta_est=211.03
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 32, 47, 54, 64], cost=1514.63, theta_est=400.64
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[17, 18, 22, 25, 39, 40, 45, 56, 61], cost=699.16, theta_est=82.49
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 17, 32, 47, 64], cost=1023.42, theta_est=159.95
+05/05/2026 02:31:39 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 25, 39, 42, 45, 56, 61], cost=513.58, theta_est=0.00
+05/05/2026 02:31:40 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.027s for 5 factories
+05/05/2026 02:31:40 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 17, 25, 32, 47, 58], cost=1936.68, theta_est=505.52
+05/05/2026 02:31:40 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 39, 42, 45, 56, 61], cost=255.14, theta_est=0.00
+05/05/2026 02:31:40 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 0     2 18782.6757    0   56 17414.1603 18782.6757  7.86%     -    8s
+05/05/2026 02:31:40 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.027s for 5 factories
+05/05/2026 02:31:40 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=1, conflict orders=[41, 54, 58, 64]
+05/05/2026 02:31:40 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:31:40 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[41, 54, 64], cost=1132.12, theta_est=262.03
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.029s for 5 factories
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[54, 64], cost=413.00, theta_est=0.00
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 16, 19, 23, 27, 35, 37, 38, 44, 59], cost=221.44, theta_est=158.10
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 39, 40, 41, 45, 56, 61], cost=607.31, theta_est=151.09
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 19, 23, 27, 35, 37, 38, 44, 59, 62], cost=644.17, theta_est=288.69
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 17, 25, 47, 54, 64], cost=2270.52, theta_est=132.64
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.057s for 5 factories
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 8, 10, 17, 32, 47], cost=271.63, theta_est=0.00
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[18, 22, 25, 39, 40, 45, 50, 56, 61], cost=366.78, theta_est=0.00
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[32, 41, 58], cost=482.96, theta_est=441.97
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 19, 23, 27, 31, 35, 38, 44, 59], cost=151.98, theta_est=44.13
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 9, 10, 11, 26, 42, 57, 60, 63, 65], cost=612.03, theta_est=156.78
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 17, 25, 47, 54, 64], cost=622.91, theta_est=0.00
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 29, 39, 40, 45, 56, 61], cost=1100.03, theta_est=183.92
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.024s for 5 factories
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 23, 27, 31, 35, 38, 44, 53, 59], cost=192.44, theta_est=39.47
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 8, 9, 10, 26, 57, 60, 63, 65], cost=804.53, theta_est=164.53
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 19, 25, 32, 47, 54, 64], cost=403.62, theta_est=23.67
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[17, 18, 21, 29, 39, 40, 42, 45, 56, 61], cost=635.71, theta_est=161.89
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.036s for 5 factories
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 23, 27, 31, 35, 36, 38, 44, 52, 59], cost=803.90, theta_est=167.66
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 8, 9, 26, 29, 57, 60, 63, 65], cost=347.91, theta_est=20.79
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 17, 19, 47, 54, 64], cost=50.22, theta_est=0.00
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[18, 22, 25, 39, 40, 42, 45, 56, 61], cost=926.33, theta_est=57.74
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[22, 58, 64], cost=602.41, theta_est=249.03
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 23, 27, 31, 35, 37, 38, 44, 59], cost=133.17, theta_est=98.29
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 9, 10, 11, 26, 57, 60, 63, 65], cost=474.07, theta_est=156.78
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 17, 19, 25, 32, 47, 54], cost=530.42, theta_est=115.71
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 29, 39, 41, 42, 45, 56, 61], cost=26.30, theta_est=23.93
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[32, 41, 54], cost=1213.88, theta_est=409.08
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 8, 9, 14, 26, 29, 57, 63, 65], cost=184.56, theta_est=0.00
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 17, 19, 25, 47, 58, 64], cost=228.49, theta_est=33.36
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[18, 21, 22, 39, 40, 42, 45, 56, 61], cost=926.33, theta_est=57.74
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[58, 64], cost=262.03, theta_est=4.10
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 8, 9, 10, 11, 26, 29, 57, 63, 65], cost=2028.76, theta_est=492.53
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 17, 19, 32, 47, 54], cost=341.19, theta_est=115.71
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[18, 21, 22, 25, 39, 41, 42, 45, 56, 61], cost=877.68, theta_est=291.06
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.019s for 5 factories
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[8, 10, 19, 47, 54, 58, 64], cost=493.12, theta_est=244.81
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=5, conflict orders=[4, 17, 18, 22, 25, 39, 42, 45, 56, 61]
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 8, 9, 13, 26, 29, 57, 60, 63, 65], cost=93.17, theta_est=26.90
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 17, 19, 47, 54, 64], cost=2270.52, theta_est=283.81
+05/05/2026 02:31:41 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[14, 18, 21, 22, 25, 39, 40, 42, 45, 56], cost=703.58, theta_est=0.00
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 23, 27, 30, 31, 35, 36, 38, 44, 59], cost=79.45, theta_est=37.05
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[4, 17, 18, 22, 25, 42, 45, 56, 61], cost=558.46, theta_est=-0.00
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 697   677 18185.7124   30   20 17414.1603 18703.3142  7.40%   9.1   10s
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.022s for 5 factories
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=1, orders=[32, 64], cost=347.94, theta_est=199.95
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 19, 23, 27, 31, 35, 38, 44, 59], cost=468.46, theta_est=151.98
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 9, 10, 11, 26, 29, 42, 57, 60, 63, 65], cost=2266.33, theta_est=612.03
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 17, 47, 54, 58], cost=705.55, theta_est=263.50
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 25, 39, 41, 45, 56, 61], cost=248.54, theta_est=0.00
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.019s for 5 factories
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 8, 9, 26, 29, 45, 57, 63, 65], cost=444.96, theta_est=66.70
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[18, 22, 25, 39, 40, 42, 56, 61], cost=926.33, theta_est=57.74
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 8, 9, 10, 26, 42, 57, 60, 63, 65], cost=1137.01, theta_est=211.03
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 17, 19, 47, 54, 64], cost=705.55, theta_est=71.44
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[18, 21, 22, 25, 29, 39, 40, 45, 56, 61], cost=1059.74, theta_est=86.71
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=5, conflict orders=[4, 17, 18, 22, 25, 39, 40, 42, 45, 56]
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 8, 9, 11, 26, 29, 57, 63, 65], cost=217.10, theta_est=0.00
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 19, 47, 54, 56, 64], cost=50.22, theta_est=0.00
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[17, 18, 22, 25, 39, 40, 42, 45, 61], cost=951.14, theta_est=57.74
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 27, 31, 35, 37, 38, 44, 52, 59], cost=150.33, theta_est=0.00
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 8, 9, 26, 43, 57, 60, 63, 65], cost=365.53, theta_est=29.55
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 19, 32, 47, 54, 64], cost=337.03, theta_est=217.18
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[17, 18, 25, 29, 39, 40, 42, 45, 56, 61], cost=635.71, theta_est=161.89
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.032s for 5 factories
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 23, 27, 31, 35, 37, 38, 44, 52, 53, 59], cost=591.42, theta_est=157.77
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 9, 10, 21, 26, 57, 60, 63, 65], cost=343.66, theta_est=156.78
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 8, 19, 25, 32, 47, 54], cost=493.94, theta_est=105.51
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[17, 18, 29, 39, 40, 42, 45, 56, 61], cost=635.71, theta_est=161.89
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.029s for 5 factories
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 9, 11, 13, 26, 44, 57, 60, 63, 65], cost=941.07, theta_est=218.43
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 19, 22, 47, 54, 64], cost=287.33, theta_est=0.00
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 25, 29, 39, 42, 45, 56, 61], cost=401.46, theta_est=125.56
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.021s for 5 factories
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 23, 27, 31, 35, 37, 38, 44, 53, 59], cost=503.62, theta_est=84.87
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 9, 11, 26, 29, 45, 57, 63, 65], cost=57.81, theta_est=0.00
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[17, 18, 22, 25, 39, 40, 42, 61], cost=951.14, theta_est=57.74
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.017s for 5 factories
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 17, 19, 25, 32, 47, 64], cost=436.04, theta_est=0.00
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 39, 41, 42, 45, 56, 61], cost=878.92, theta_est=297.48
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.018s for 5 factories
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 10, 17, 25, 32, 42, 47, 64]
+05/05/2026 02:31:42 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 39, 41, 45, 56, 61], cost=82.45, theta_est=0.00
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.028s for 5 factories
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 8, 10, 17, 25, 32, 47, 54], cost=848.16, theta_est=367.64
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[18, 22, 39, 40, 42, 45, 56, 61], cost=926.33, theta_est=57.74
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.019s for 5 factories
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 19, 23, 27, 31, 35, 37, 38, 44, 52, 59], cost=2454.54, theta_est=480.30
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 9, 11, 13, 26, 29, 42, 57, 60, 63, 65], cost=1852.18, theta_est=307.87
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 17, 25, 47, 58, 64], cost=807.00, theta_est=102.50
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.028s for 5 factories
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 17, 25, 32, 47, 64], cost=37.07, theta_est=0.00
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=17672.14, delay=292.21, bound=18642.95, gap=5.49%, t=11.4s
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.032s for 5 factories
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 19, 23, 27, 31, 35, 36, 37, 38, 44, 59], cost=2380.93, theta_est=471.75
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[7, 8, 9, 26, 43, 45, 57, 60, 63, 65], cost=840.80, theta_est=101.16
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 32, 47, 54, 64], cost=337.03, theta_est=217.18
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[17, 18, 21, 25, 29, 39, 40, 42, 56, 61], cost=635.71, theta_est=161.89
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.029s for 5 factories
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H 1377  1122                    17672.085418 18642.9469  5.49%   8.2   11s
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.022s for 5 factories
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 3, 14, 23, 27, 31, 35, 37, 38, 44, 59], cost=444.50, theta_est=89.67
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 8, 9, 11, 26, 29, 42, 57, 63, 65], cost=338.87, theta_est=53.39
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[17, 18, 21, 22, 39, 40, 45, 56, 61], cost=699.16, theta_est=82.49
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 19, 23, 27, 31, 35, 37, 38, 44, 52, 59], cost=592.05, theta_est=178.32
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 14, 18, 22, 39, 42, 45, 56, 61], cost=1267.35, theta_est=255.14
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.018s for 5 factories
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 9, 11, 13, 26, 42, 57, 60, 63, 65], cost=2879.91, theta_est=502.33
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 8, 10, 17, 19, 32, 47, 64]
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[18, 22, 25, 29, 39, 40, 45, 56, 61], cost=697.87, theta_est=86.71
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 19, 23, 27, 31, 35, 37, 38, 43, 44, 59], cost=397.71, theta_est=79.28
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 9, 11, 13, 26, 57, 60, 63, 65], cost=86.89, theta_est=0.00
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 22, 47, 54, 64], cost=287.33, theta_est=0.00
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 25, 29, 39, 40, 42, 45, 56], cost=178.59, theta_est=4.13
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.029s for 5 factories
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 19, 25, 32, 47, 54], cost=19.40, theta_est=0.00
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=5, conflict orders=[8, 17, 18, 22, 39, 42, 45, 56, 61]
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=18084.81, delay=654.14, bound=18642.95, gap=3.09%, t=11.8s
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H 1396  1122                    18084.808795 18642.9469  3.09%   8.2   11s
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.025s for 5 factories
+05/05/2026 02:31:43 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 28, 31, 35, 37, 38, 44, 52, 59], cost=2352.94, theta_est=359.94
+05/05/2026 02:31:44 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.027s for 5 factories
+05/05/2026 02:31:44 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 23, 27, 28, 31, 35, 37, 38, 44, 52, 59], cost=199.26, theta_est=57.95
+05/05/2026 02:31:44 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.019s for 5 factories
+05/05/2026 02:31:44 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 22, 25, 42, 45, 56, 61], cost=808.06, theta_est=0.00
+05/05/2026 02:31:44 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:31:44 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 16, 23, 27, 31, 35, 37, 38, 44, 59], cost=1270.12, theta_est=279.51
+05/05/2026 02:31:44 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 8, 9, 11, 26, 29, 57, 60, 63, 65], cost=2491.51, theta_est=364.90
+05/05/2026 02:31:44 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[17, 18, 25, 39, 40, 42, 45, 50, 56, 61], cost=543.89, theta_est=177.61
+05/05/2026 02:31:44 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.028s for 5 factories
+05/05/2026 02:31:44 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 19, 23, 27, 31, 35, 36, 38, 44, 59], cost=813.36, theta_est=172.00
+05/05/2026 02:31:44 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 8, 9, 26, 29, 33, 57, 60, 63, 65], cost=158.69, theta_est=0.00
+05/05/2026 02:31:44 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 47, 54, 58, 64], cost=1238.11, theta_est=355.63
+05/05/2026 02:31:44 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[17, 18, 22, 25, 40, 42, 45, 56, 61], cost=1273.86, theta_est=57.74
+05/05/2026 02:31:45 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.075s for 5 factories
+05/05/2026 02:31:45 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 31, 35, 37, 38, 43, 44, 52, 59], cost=2409.77, theta_est=443.48
+05/05/2026 02:31:46 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.034s for 5 factories
+05/05/2026 02:31:46 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 12, 14, 23, 27, 31, 35, 38, 44, 59], cost=447.77, theta_est=133.17
+05/05/2026 02:31:47 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 2333  1073 18355.7040   16   47 18084.8088 18558.3100  2.62%   8.2   15s
+05/05/2026 02:31:48 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.036s for 5 factories
+05/05/2026 02:31:48 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 3, 6, 14, 23, 27, 31, 35, 37, 38, 44, 59], cost=2419.78, theta_est=458.21
+05/05/2026 02:31:52 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 2354  1087 18242.1547   16   58 18084.8088 18558.3100  2.62%   8.1   20s
+05/05/2026 02:31:57 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 2379  1113 18558.3100   15   50 18084.8088 18558.3100  2.62%   8.5   25s
+05/05/2026 02:31:57 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.028s for 5 factories
+05/05/2026 02:31:57 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 23, 27, 31, 35, 36, 37, 38, 44, 59], cost=244.86, theta_est=134.78
+05/05/2026 02:31:57 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.035s for 5 factories
+05/05/2026 02:31:57 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 23, 27, 31, 35, 36, 38, 44, 53, 59], cost=1151.24, theta_est=192.44
+05/05/2026 02:31:57 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.032s for 5 factories
+05/05/2026 02:31:57 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=1, conflict orders=[32, 54, 64]
+05/05/2026 02:31:57 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 16, 23, 27, 31, 35, 37, 38, 44, 52, 59], cost=1621.40, theta_est=352.41
+05/05/2026 02:31:57 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 6, 8, 9, 11, 26, 29, 42, 57, 63, 65], cost=2345.66, theta_est=393.24
+05/05/2026 02:31:57 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 17, 19, 47, 58], cost=248.30, theta_est=0.00
+05/05/2026 02:31:57 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[18, 22, 25, 39, 40, 41, 45, 56, 61], cost=390.08, theta_est=0.00
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.024s for 5 factories
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 19, 23, 31, 35, 38, 44, 52, 59], cost=462.72, theta_est=56.54
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=4, conflict orders=[4, 10, 27, 47, 54, 56, 64]
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 22, 25, 39, 42, 45, 61], cost=495.15, theta_est=0.00
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.075s for 5 factories
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 19, 23, 27, 31, 35, 37, 38, 44, 59], cost=310.93, theta_est=105.42
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 9, 11, 14, 26, 29, 42, 57, 63, 65], cost=1742.91, theta_est=286.07
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 8, 10, 25, 47, 54, 58, 64], cost=493.12, theta_est=244.81
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[17, 18, 22, 39, 40, 45, 56, 61], cost=699.16, theta_est=82.49
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.064s for 5 factories
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 23, 27, 31, 35, 36, 38, 43, 44, 52, 59], cost=941.75, theta_est=208.08
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.029s for 5 factories
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 23, 27, 31, 35, 36, 38, 44, 59], cost=449.33, theta_est=203.56
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.028s for 5 factories
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 31, 35, 37, 38, 44, 51, 52, 59], cost=950.88, theta_est=195.58
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.065s for 5 factories
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 19, 23, 27, 31, 35, 38, 44, 52, 59], cost=2889.84, theta_est=549.09
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 8, 10, 47, 54, 58, 64], cost=493.12, theta_est=244.81
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=5, conflict orders=[17, 18, 22, 25, 39, 42, 45, 56, 61]
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.033s for 5 factories
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 16, 23, 27, 31, 35, 38, 44, 59], cost=174.62, theta_est=0.00
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.032s for 5 factories
+05/05/2026 02:31:59 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 16, 23, 27, 31, 35, 37, 38, 44, 59], cost=85.81, theta_est=0.00
+05/05/2026 02:32:01 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.038s for 5 factories
+05/05/2026 02:32:01 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 23, 27, 31, 35, 37, 38, 44, 48, 59], cost=2015.44, theta_est=347.39
+05/05/2026 02:32:01 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:32:01 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 13, 14, 23, 27, 31, 35, 37, 38, 44, 59], cost=122.82, theta_est=58.07
+05/05/2026 02:32:01 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.033s for 5 factories
+05/05/2026 02:32:01 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 16, 23, 27, 31, 35, 37, 38, 51, 59], cost=699.55, theta_est=133.17
+05/05/2026 02:32:01 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.021s for 5 factories
+05/05/2026 02:32:01 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 17, 19, 32, 47, 64], cost=37.07, theta_est=0.00
+05/05/2026 02:32:01 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 25, 39, 40, 41, 42, 45, 56, 61], cost=105.02, theta_est=34.77
+05/05/2026 02:32:01 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:32:01 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 16, 23, 27, 31, 35, 38, 43, 44, 59], cost=226.81, theta_est=20.17
+05/05/2026 02:32:01 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.022s for 5 factories
+05/05/2026 02:32:01 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 16, 23, 27, 31, 35, 36, 38, 44, 59], cost=287.46, theta_est=44.11
+05/05/2026 02:32:02 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 2543  1222 18318.7042   21   42 18084.8088 18548.2226  2.56%   9.5   30s
+05/05/2026 02:32:03 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/05/2026 02:32:03 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 16, 23, 27, 31, 35, 36, 37, 38, 44, 59], cost=162.09, theta_est=41.88
+05/05/2026 02:32:03 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 29, 39, 42, 45, 56, 61], cost=144.74, theta_est=125.56
+05/05/2026 02:32:04 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:32:04 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 23, 27, 31, 35, 38, 44, 51, 52, 59], cost=293.63, theta_est=95.79
+05/05/2026 02:32:04 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.033s for 5 factories
+05/05/2026 02:32:04 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 12, 14, 23, 27, 31, 35, 37, 38, 44, 59], cost=2024.80, theta_est=447.77
+05/05/2026 02:32:04 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.023s for 5 factories
+05/05/2026 02:32:04 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 13, 14, 23, 27, 31, 35, 37, 38, 44, 52, 59], cost=2607.89, theta_est=384.99
+05/05/2026 02:32:04 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.019s for 5 factories
+05/05/2026 02:32:04 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 23, 27, 31, 35, 37, 38, 44, 48, 59], cost=300.33, theta_est=0.00
+05/05/2026 02:32:04 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/05/2026 02:32:04 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 12, 14, 23, 27, 31, 35, 37, 38, 44, 59], cost=302.93, theta_est=42.36
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 23, 27, 31, 35, 37, 38, 44, 59, 62], cost=491.39, theta_est=84.87
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.023s for 5 factories
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 3, 6, 14, 23, 27, 31, 35, 38, 44, 59], cost=651.46, theta_est=158.46
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 16, 23, 27, 31, 35, 38, 44, 52, 59], cost=375.28, theta_est=119.21
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 23, 27, 31, 35, 36, 37, 38, 44, 52, 59], cost=507.43, theta_est=165.43
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.060s for 5 factories
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 12, 23, 27, 31, 35, 37, 38, 44, 59], cost=296.16, theta_est=108.92
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 16, 23, 27, 31, 35, 37, 38, 44, 59], cost=120.45, theta_est=0.00
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.021s for 5 factories
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 21, 23, 27, 31, 35, 38, 44, 59], cost=295.21, theta_est=60.40
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.034s for 5 factories
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 19, 23, 27, 31, 35, 37, 38, 44, 53, 59], cost=586.13, theta_est=162.11
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 6, 9, 11, 26, 29, 33, 57, 60, 63, 65], cost=758.62, theta_est=106.92
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 8, 10, 17, 47, 54, 64], cost=2270.52, theta_est=134.73
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[18, 22, 25, 39, 42, 45, 50, 56, 61], cost=753.74, theta_est=139.06
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.023s for 5 factories
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 13, 14, 19, 23, 27, 31, 35, 37, 38, 44, 59], cost=335.63, theta_est=20.80
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 8, 10, 47, 54, 58], cost=548.07, theta_est=0.00
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[17, 18, 22, 25, 39, 45, 50, 56, 61], cost=699.16, theta_est=101.02
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.075s for 5 factories
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 23, 27, 31, 35, 37, 38, 43, 44, 52, 59], cost=391.97, theta_est=159.12
+05/05/2026 02:32:05 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 22, 40, 42, 45, 56, 61], cost=1987.30, theta_est=274.38
+05/05/2026 02:32:06 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.021s for 5 factories
+05/05/2026 02:32:06 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 25, 29, 39, 40, 42, 45, 56, 61], cost=186.42, theta_est=18.50
+05/05/2026 02:32:06 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.033s for 5 factories
+05/05/2026 02:32:06 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 16, 23, 27, 31, 35, 37, 38, 44, 52, 59], cost=242.88, theta_est=50.43
+05/05/2026 02:32:06 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 9, 11, 13, 14, 26, 57, 60, 63, 65], cost=1637.69, theta_est=294.94
+05/05/2026 02:32:06 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 17, 19, 25, 47, 54, 64], cost=480.21, theta_est=50.22
+05/05/2026 02:32:06 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 29, 39, 42, 45, 56, 61], cost=1913.75, theta_est=329.01
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 5494  1571 18199.1721   30   30 18084.8088 18453.6004  2.04%  10.4   35s
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.021s for 5 factories
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 16, 23, 27, 31, 35, 37, 38, 44, 53, 59], cost=239.76, theta_est=34.22
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=3, conflict orders=[5, 6, 9, 11, 14, 26, 29, 57, 60, 63, 65]
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=4, conflict orders=[7, 10, 19, 25, 47, 54, 58, 64]
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[4, 8, 17, 18, 22, 42, 45, 56, 61], cost=768.00, theta_est=0.00
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.027s for 5 factories
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 16, 23, 27, 31, 35, 37, 38, 43, 44, 59], cost=138.00, theta_est=0.00
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 19, 25, 47, 54, 56, 64], cost=542.99, theta_est=50.22
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 22, 39, 41, 42, 45, 61], cost=861.07, theta_est=250.35
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 16, 19, 23, 27, 31, 35, 37, 38, 44, 59], cost=259.58, theta_est=54.77
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=3, conflict orders=[5, 6, 9, 11, 14, 26, 39, 57, 60, 63, 65]
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 17, 47, 54, 64], cost=2270.52, theta_est=132.64
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 25, 29, 42, 45, 56, 61], cost=817.09, theta_est=0.00
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 19, 23, 27, 31, 35, 37, 38, 43, 44, 59], cost=411.75, theta_est=145.84
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 9, 11, 14, 26, 29, 39, 57, 60, 63, 65], cost=1041.36, theta_est=260.55
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 25, 47, 54, 58], cost=146.19, theta_est=0.00
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 22, 42, 45, 56, 61], cost=429.07, theta_est=0.00
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 12, 14, 23, 27, 31, 35, 36, 38, 44, 59], cost=779.24, theta_est=175.49
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 9, 11, 13, 26, 42, 57, 60, 63, 65], cost=361.43, theta_est=119.86
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[7, 10, 19, 25, 32, 47, 54], cost=286.58, theta_est=4.61
+05/05/2026 02:32:07 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[4, 8, 17, 18, 29, 39, 40, 45, 56, 61], cost=144.74, theta_est=0.00
+05/05/2026 02:32:08 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/05/2026 02:32:08 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 3, 14, 23, 27, 31, 35, 36, 38, 44, 59], cost=1078.60, theta_est=222.81
+05/05/2026 02:32:08 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[10, 19, 25, 32, 47, 54, 64], cost=337.03, theta_est=217.18
+05/05/2026 02:32:08 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[4, 8, 17, 18, 29, 39, 42, 45, 56, 61], cost=374.92, theta_est=144.74
+05/05/2026 02:32:08 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.079s for 5 factories
+05/05/2026 02:32:08 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 21, 23, 27, 31, 35, 37, 38, 44, 59], cost=202.90, theta_est=0.00
+05/05/2026 02:32:08 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 19, 25, 47, 56, 58, 64], cost=274.38, theta_est=39.26
+05/05/2026 02:32:08 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 22, 39, 40, 42, 45, 61], cost=1558.18, theta_est=209.99
+05/05/2026 02:32:08 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.027s for 5 factories
+05/05/2026 02:32:08 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 12, 14, 23, 27, 31, 35, 37, 38, 43, 44, 59], cost=377.02, theta_est=82.78
+05/05/2026 02:32:08 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 22, 39, 40, 42, 45, 56], cost=1158.80, theta_est=215.71
+05/05/2026 02:32:09 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:32:09 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 12, 14, 23, 27, 31, 35, 38, 43, 44, 59], cost=548.60, theta_est=151.56
+05/05/2026 02:32:09 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 8, 10, 19, 32, 47, 54], cost=571.93, theta_est=2.88
+05/05/2026 02:32:09 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[17, 18, 25, 36, 39, 40, 42, 45, 56, 61], cost=595.40, theta_est=156.99
+05/05/2026 02:32:09 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/05/2026 02:32:09 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 23, 27, 31, 35, 37, 38, 43, 44, 51, 52, 59], cost=222.88, theta_est=67.42
+05/05/2026 02:32:09 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 14, 17, 18, 25, 39, 42, 45, 56, 61], cost=144.74, theta_est=0.89
+05/05/2026 02:32:09 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.032s for 5 factories
+05/05/2026 02:32:09 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 16, 23, 27, 31, 35, 36, 38, 43, 44, 59], cost=388.29, theta_est=84.52
+05/05/2026 02:32:09 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 21, 22, 39, 45, 56, 61], cost=1010.05, theta_est=82.49
+05/05/2026 02:32:10 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/05/2026 02:32:10 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 16, 23, 27, 31, 35, 37, 38, 43, 44, 52, 59], cost=1936.73, theta_est=392.83
+05/05/2026 02:32:10 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:32:10 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 16, 19, 23, 27, 31, 35, 37, 38, 43, 44, 59], cost=1969.34, theta_est=397.71
+05/05/2026 02:32:10 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 6, 9, 11, 26, 39, 42, 57, 60, 63, 65], cost=2144.69, theta_est=401.52
+05/05/2026 02:32:10 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 7, 10, 47, 54, 58], cost=146.19, theta_est=0.00
+05/05/2026 02:32:10 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 22, 25, 29, 40, 45, 56, 61], cost=2005.21, theta_est=279.42
+05/05/2026 02:32:11 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.066s for 5 factories
+05/05/2026 02:32:11 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 19, 23, 31, 35, 37, 38, 44, 52, 59], cost=312.73, theta_est=0.00
+05/05/2026 02:32:11 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 17, 27, 47, 54, 64], cost=1356.04, theta_est=7.26
+05/05/2026 02:32:11 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 18, 22, 25, 41, 42, 45, 56, 61], cost=368.32, theta_est=6.06
+05/05/2026 02:32:12 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 12219  2931 18178.4149   30   28 18084.8088 18257.2140  0.95%  11.3   40s
+05/05/2026 02:32:12 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.027s for 5 factories
+05/05/2026 02:32:12 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 23, 27, 31, 35, 37, 38, 43, 44, 52, 59], cost=407.66, theta_est=141.50
+05/05/2026 02:32:12 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 19, 32, 47, 54, 58], cost=1294.39, theta_est=628.46
+05/05/2026 02:32:12 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=5, orders=[8, 17, 18, 25, 39, 42, 45, 56, 61], cost=144.74, theta_est=-0.00
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.025s for 5 factories
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 3, 23, 27, 31, 35, 37, 38, 44, 52, 59], cost=801.18, theta_est=229.13
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=3, orders=[5, 7, 9, 11, 14, 26, 29, 57, 60, 63, 65], cost=1287.88, theta_est=277.53
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.033s for 5 factories
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 23, 27, 31, 35, 36, 37, 38, 43, 51, 52, 59], cost=215.46, theta_est=32.08
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.032s for 5 factories
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 23, 27, 31, 35, 37, 38, 43, 52, 59], cost=705.50, theta_est=198.45
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 23, 27, 31, 35, 38, 44, 59, 62], cost=713.69, theta_est=153.65
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.063s for 5 factories
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 31, 35, 38, 43, 44, 59, 62], cost=834.20, theta_est=194.07
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.022s for 5 factories
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 28, 31, 35, 38, 44, 59, 62], cost=632.95, theta_est=110.53
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.025s for 5 factories
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 13, 14, 23, 27, 31, 35, 38, 44, 59, 62], cost=862.19, theta_est=135.58
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.019s for 5 factories
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 27, 31, 35, 36, 38, 44, 52, 59], cost=469.59, theta_est=23.94
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 23, 27, 31, 35, 37, 38, 43, 44, 48, 59], cost=373.05, theta_est=39.98
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.018s for 5 factories
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 23, 27, 31, 35, 37, 38, 43, 44, 55, 59], cost=373.47, theta_est=77.53
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.032s for 5 factories
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 23, 27, 31, 35, 37, 38, 43, 44, 59, 62], cost=592.22, theta_est=125.29
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.019s for 5 factories
+05/05/2026 02:32:13 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 23, 27, 31, 35, 36, 37, 38, 43, 44, 59], cost=345.68, theta_est=175.20
+05/05/2026 02:32:14 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.025s for 5 factories
+05/05/2026 02:32:14 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 23, 27, 31, 35, 36, 37, 38, 44, 51, 52, 59], cost=1457.55, theta_est=259.93
+05/05/2026 02:32:14 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.033s for 5 factories
+05/05/2026 02:32:14 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 23, 27, 31, 35, 36, 37, 38, 51, 52, 59], cost=1807.79, theta_est=293.64
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.035s for 5 factories
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 31, 35, 38, 43, 44, 52, 59], cost=563.55, theta_est=260.15
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.022s for 5 factories
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 14, 23, 27, 31, 35, 38, 44, 48, 59], cost=443.80, theta_est=47.63
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.033s for 5 factories
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 31, 35, 37, 38, 44, 51, 53, 59], cost=1254.53, theta_est=179.36
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 23, 27, 30, 31, 35, 37, 38, 44, 52, 59], cost=651.59, theta_est=190.67
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.019s for 5 factories
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 35, 38, 43, 44, 52, 53, 59], cost=35.19, theta_est=1.76
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=18125.04, delay=556.16, bound=18230.17, gap=0.58%, t=43.5s
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.019s for 5 factories
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H14849  2307                    18124.991291 18230.1683  0.58%  11.3   43s
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.047s for 5 factories
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 23, 27, 31, 35, 36, 38, 43, 44, 53, 59], cost=1390.40, theta_est=191.86
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.051s for 5 factories
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 16, 23, 27, 31, 35, 36, 37, 38, 44, 59], cost=1559.20, theta_est=343.86
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.034s for 5 factories
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 30, 31, 35, 38, 44, 52, 59], cost=815.26, theta_est=259.46
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.033s for 5 factories
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 16, 23, 27, 31, 35, 37, 38, 44, 51, 59], cost=446.48, theta_est=72.02
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.060s for 5 factories
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 16, 23, 27, 31, 35, 37, 38, 43, 44, 59], cost=1606.54, theta_est=319.93
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.036s for 5 factories
+05/05/2026 02:32:15 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 31, 35, 36, 38, 44, 51, 52, 59], cost=1714.40, theta_est=328.71
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.032s for 5 factories
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 16, 23, 27, 31, 35, 38, 43, 44, 52, 59], cost=476.11, theta_est=159.63
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 16, 23, 27, 31, 35, 38, 44, 59, 62], cost=392.00, theta_est=126.25
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 12, 23, 27, 31, 35, 36, 37, 38, 44, 59], cost=508.02, theta_est=173.27
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.032s for 5 factories
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 3, 23, 27, 31, 35, 36, 37, 38, 44, 59], cost=710.70, theta_est=220.58
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.064s for 5 factories
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 16, 23, 27, 28, 31, 35, 36, 38, 44, 59], cost=212.35, theta_est=0.98
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 12, 14, 23, 27, 31, 35, 37, 38, 44, 53, 59], cost=2586.79, theta_est=473.60
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.036s for 5 factories
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 14, 23, 27, 28, 31, 35, 36, 38, 44, 53, 59], cost=1119.57, theta_est=108.32
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.034s for 5 factories
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 13, 14, 23, 27, 31, 35, 37, 38, 44, 53, 59], cost=537.33, theta_est=0.24
+05/05/2026 02:32:16 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=4, orders=[4, 10, 17, 19, 25, 32, 47, 58], cost=1427.42, theta_est=382.12
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - _callback: [Gurobi] 15498  2124     cutoff   39      18124.9913 18221.1247  0.53%  11.3   45s
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 13, 14, 23, 27, 31, 35, 38, 44, 52, 59], cost=541.65, theta_est=150.33
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=18145.60, delay=520.97, bound=18218.73, gap=0.40%, t=45.3s
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H15765  1583                    18145.595282 18218.7284  0.40%  11.3   45s
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.028s for 5 factories
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 3, 6, 14, 23, 27, 31, 35, 38, 43, 44, 59], cost=752.29, theta_est=198.88
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.064s for 5 factories
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 3, 6, 13, 14, 23, 27, 31, 35, 38, 44, 59], cost=783.67, theta_est=140.39
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.027s for 5 factories
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 23, 27, 31, 35, 38, 43, 44, 52, 53, 59], cost=1025.94, theta_est=266.97
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 23, 27, 31, 35, 38, 44, 52, 53, 59], cost=841.61, theta_est=226.55
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/05/2026 02:32:17 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 16, 23, 27, 31, 35, 38, 44, 53, 59], cost=370.73, theta_est=103.00
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.034s for 5 factories
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 23, 27, 31, 35, 36, 38, 44, 53, 59], cost=986.27, theta_est=218.00
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 3, 6, 23, 27, 31, 35, 37, 38, 44, 59], cost=449.14, theta_est=156.23
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.035s for 5 factories
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 13, 14, 23, 27, 31, 35, 36, 38, 44, 53, 59], cost=1370.99, theta_est=133.38
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 3, 14, 23, 27, 31, 35, 37, 38, 43, 44, 59], cost=545.33, theta_est=130.09
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.021s for 5 factories
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 16, 23, 27, 31, 35, 36, 38, 44, 59], cost=257.17, theta_est=110.66
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.019s for 5 factories
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 31, 35, 38, 43, 44, 48, 59], cost=544.63, theta_est=88.05
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.018s for 5 factories
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=2, conflict orders=[1, 2, 14, 23, 27, 31, 35, 37, 38, 44, 52, 59, 62]
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 12, 14, 23, 27, 31, 35, 36, 38, 43, 44, 59], cost=906.57, theta_est=215.91
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.032s for 5 factories
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 23, 27, 31, 35, 36, 38, 44, 52, 53, 59], cost=1362.13, theta_est=290.90
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.033s for 5 factories
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 28, 31, 35, 38, 44, 53, 59], cost=612.56, theta_est=43.97
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.033s for 5 factories
+05/05/2026 02:32:18 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 13, 14, 23, 27, 31, 35, 38, 44, 53, 59], cost=841.96, theta_est=69.03
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: ***[Validated]*** obj=18148.70, delay=520.97, bound=18198.30, gap=0.27%, t=47.0s
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - _callback: [Gurobi] H16897   931                    18148.697595 18198.2997  0.27%  11.3   47s
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 23, 27, 31, 35, 36, 38, 44, 52, 59], cost=738.69, theta_est=234.21
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 3, 14, 23, 31, 35, 37, 38, 44, 52, 59], cost=312.73, theta_est=38.57
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.034s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 3, 14, 23, 27, 31, 35, 36, 38, 43, 44, 59], cost=1302.72, theta_est=263.23
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.020s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 16, 23, 27, 31, 35, 37, 38, 43, 44, 59], cost=172.64, theta_est=17.95
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.061s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 3, 6, 23, 27, 31, 35, 38, 44, 52, 59], cost=1098.17, theta_est=297.91
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.021s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 3, 13, 14, 23, 27, 31, 35, 37, 38, 44, 59], cost=493.19, theta_est=71.61
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 23, 27, 31, 35, 37, 38, 43, 44, 52, 53, 59], cost=692.24, theta_est=198.19
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.034s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 23, 27, 31, 35, 37, 38, 43, 44, 53, 59], cost=622.49, theta_est=125.29
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.018s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added feasibility cut: factory=2, conflict orders=[1, 2, 12, 14, 23, 27, 31, 35, 37, 38, 44, 52, 59]
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 14, 23, 27, 35, 36, 38, 43, 44, 52, 59], cost=45.08, theta_est=9.42
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.033s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 23, 27, 31, 35, 36, 38, 43, 44, 52, 59], cost=878.51, theta_est=274.63
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.026s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 13, 14, 23, 27, 31, 35, 36, 38, 44, 52, 59], cost=960.96, theta_est=150.33
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.018s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 23, 27, 35, 36, 38, 44, 52, 53, 59], cost=66.09, theta_est=25.69
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.033s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 16, 23, 27, 31, 35, 36, 38, 44, 52, 59], cost=683.28, theta_est=183.56
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.029s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 23, 27, 31, 35, 36, 37, 38, 43, 44, 52, 59], cost=608.25, theta_est=205.85
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.018s for 5 factories
+05/05/2026 02:32:19 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 16, 23, 27, 31, 35, 37, 38, 43, 44, 52, 59], cost=304.53, theta_est=90.85
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.024s for 5 factories
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 12, 23, 27, 31, 35, 38, 44, 52, 59], cost=819.81, theta_est=250.60
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.032s for 5 factories
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 23, 27, 31, 35, 37, 38, 44, 52, 59, 62], cost=605.67, theta_est=181.02
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 6, 23, 27, 31, 35, 38, 44, 52, 59, 62], cost=855.86, theta_est=249.81
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.045s for 5 factories
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 14, 23, 27, 31, 35, 36, 38, 44, 48, 59], cost=730.59, theta_est=111.98
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.033s for 5 factories
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 23, 27, 31, 35, 36, 37, 38, 44, 53, 59], cost=711.81, theta_est=149.22
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.025s for 5 factories
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 6, 12, 13, 14, 23, 27, 31, 35, 38, 44, 59], cost=521.50, theta_est=93.08
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.031s for 5 factories
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 3, 6, 14, 23, 27, 35, 38, 44, 52, 59], cost=68.68, theta_est=32.70
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.028s for 5 factories
+05/05/2026 02:32:20 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 13, 14, 16, 23, 27, 31, 35, 36, 38, 44, 59], cost=326.57, theta_est=26.04
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.034s for 5 factories
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 3, 6, 14, 23, 31, 35, 38, 44, 52, 59], cost=462.72, theta_est=107.36
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.029s for 5 factories
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 2, 12, 23, 27, 31, 35, 37, 38, 44, 52, 59], cost=569.82, theta_est=181.82
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: >>>Parallel subproblem time: 0.030s for 5 factories
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print:  Added optimal optimality cut: factory=2, orders=[1, 12, 13, 14, 23, 27, 31, 35, 37, 38, 44, 59], cost=314.88, theta_est=24.29
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Cutting planes:
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Gomory: 7
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - _callback: [Gurobi] MIR: 153
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Flow cover: 49
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - _callback: [Gurobi] RLT: 1
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Lazy constraints: 183
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Explored 18919 nodes (208034 simplex iterations) in 49.74 seconds (52.73 work units)
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Thread count was 20 (of 20 available processors)
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Solution count 10: 18148.7 18145.6 18125 ... 15770.1
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Optimal solution found (tolerance 1.00e-04)
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - _callback: [Gurobi] Best objective 1.814869759511e+04, best bound 1.814869759511e+04, gap 0.0000%
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - _callback: [Gurobi] User-callback calls 49182, time in user-callback 6.73 sec
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: 
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: ============================================================
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Branch-and-Check LBBD Summary
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: ============================================================
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Status: OPTIMAL
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Runtime: 49.74s
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Iterations: 213
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Initial UB: 55296.23
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Module times (s): preprocess=3.045, enhancement=0.303, modeling=0.225, solving=49.741
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Master time: 43.250s
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Average subproblem time: 0.0197s
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Lazy cuts added: 375
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print:   - feasibility cuts: 26
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print:   - optimality cuts: 349
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Subproblems solved: 1060
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Subproblem time total: 20.84s
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Subproblem time avg: 0.0197s
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Best objective: 18148.70
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Best bound: 18148.70
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Final MIP gap: 0.00%
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: ============================================================
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: 
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: ------------------------------------------------------------
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Subproblem Diagnostics
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: ------------------------------------------------------------
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Total subproblems: 1060
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print:   infeasible: 26 (2.45%)
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print:   optimal: 1034 (97.55%)
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Avg subproblem gap: 0.00% (n=658)
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Avg subproblem objective: 341.283 (n=1034)
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Avg subproblem bound: 341.283 (n=1034)
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: Avg (obj - bound) / |obj|: 0.00%
+05/05/2026 02:32:21 PM INFO proposed_lbbd_solver - print: ------------------------------------------------------------

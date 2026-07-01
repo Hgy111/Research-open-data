@@ -1,0 +1,2 @@
+﻿dataset,status_code,status_text,gurobi_runtime_sec,wall_clock_time_sec,sol_count,mip_gap,best_objective,obj_bound
+exp_7f_55j_seed4,9,TIME_LIMIT,1800.8339998722076,1804.1599442958832,10,0.15115204635375487,23998.8444084405,27626.318850901647

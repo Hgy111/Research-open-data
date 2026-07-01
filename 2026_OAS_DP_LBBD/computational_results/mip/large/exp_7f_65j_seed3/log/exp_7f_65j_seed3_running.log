@@ -1,0 +1,328 @@
+04/26/2026 12:55:58 AM INFO mip_v1 - setup_solver_logging: ================================================================================
+04/26/2026 12:55:58 AM INFO mip_v1 - setup_solver_logging: Logging started. Log file: D:\Project_Code\Paper\DP_LBBD_1\DP_lbbd\Algorithm\Results\mip_v1\large\exp_7f_65j_seed3\log\exp_7f_65j_seed3_running.log
+04/26/2026 12:55:58 AM INFO mip_v1 - print: BigM calculated: 141.4
+04/26/2026 12:55:58 AM INFO mip_v1 - print: Adding variables...
+04/26/2026 12:55:59 AM INFO mip_v1 - print: Total variables: 106275
+04/26/2026 12:55:59 AM INFO mip_v1 - print: Adding constraints...
+04/26/2026 12:56:02 AM INFO mip_v1 - print: Total constraints: 212717
+04/26/2026 12:56:02 AM INFO mip_v1 - print: Setting objective function...
+04/26/2026 12:56:02 AM INFO mip_v1 - print: 
+04/26/2026 12:56:02 AM INFO mip_v1 - print: ✓ Model LP written to: D:\Project_Code\Paper\DP_LBBD_1\DP_lbbd\Algorithm\MIP\production_model.lp
+04/26/2026 12:56:02 AM INFO mip_v1 - print: 
+04/26/2026 12:56:02 AM INFO mip_v1 - print: ============================================================
+04/26/2026 12:56:02 AM INFO mip_v1 - print: Starting optimization...
+04/26/2026 12:56:02 AM INFO mip_v1 - print: ============================================================
+04/26/2026 12:56:02 AM INFO mip_v1 - print: Gurobi native log file: D:\Project_Code\Paper\DP_LBBD_1\DP_lbbd\Algorithm\Results\mip_v1\large\exp_7f_65j_seed3\log\exp_7f_65j_seed3_gurobi.log
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: ============================================================
+04/26/2026 01:26:04 AM INFO mip_v1 - print: SOLUTION SUMMARY
+04/26/2026 01:26:04 AM INFO mip_v1 - print: ============================================================
+04/26/2026 01:26:04 AM INFO mip_v1 - print: ⚠ Time limit reached, best solution found:
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Objective Value (Total Profit): 19369.03
+04/26/2026 01:26:04 AM INFO mip_v1 - print: MIP Gap: 49.02%
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 📋 Accepted Orders (46/65): [1, 2, 3, 4, 5, 6, 8, 10, 14, 15, 16, 17, 19, 20, 22, 23, 24, 26, 28, 29, 30, 34, 35, 39, 40, 41, 42, 43, 44, 45, 47, 49, 50, 51, 52, 53, 54, 56, 57, 59, 60, 61, 62, 63, 64, 65]
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: ------------------------------------------------------------
+04/26/2026 01:26:04 AM INFO mip_v1 - print: ORDER ALLOCATION DETAILS
+04/26/2026 01:26:04 AM INFO mip_v1 - print: ------------------------------------------------------------
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 1 → Factory 6
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 80.05
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 90.72
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 101.08
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 110.18 (Deadline: 111.50, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 2 → Factory 2
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 64.88
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 75.53
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 86.31
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 90.61 (Deadline: 109.80, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 3 → Factory 5
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 63.20
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 73.40
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 83.42
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 86.72 (Deadline: 87.70, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 4 → Factory 6
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 38.36
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 48.38
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 56.60
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 60.50 (Deadline: 78.10, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 5 → Factory 6
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 15.68
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 20.86
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 26.80
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 35.90 (Deadline: 53.40, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 6 → Factory 3
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 32.29
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 45.71
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 54.85
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 4: completion time = 64.85
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 71.65 (Deadline: 77.10, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 8 → Factory 7
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 21.21
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 37.18
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 45.63
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 4: completion time = 53.05
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 56.05 (Deadline: 67.50, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 10 → Factory 5
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 37.66
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 48.20
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 58.90
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 62.80 (Deadline: 62.80, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 14 → Factory 5
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 22.11
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 31.75
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 40.09
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 47.59 (Deadline: 63.60, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 15 → Factory 6
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 31.00
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 41.38
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 48.67
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 54.57 (Deadline: 62.80, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 16 → Factory 5
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 84.28
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 96.32
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 106.10
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 107.90 (Deadline: 107.90, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 17 → Factory 7
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 77.39
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 90.38
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 99.66
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 4: completion time = 109.10
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 112.70 (Deadline: 112.70, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 19 → Factory 5
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 13.73
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 23.35
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 31.75
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 32.35 (Deadline: 59.10, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 20 → Factory 5
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 77.75
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 89.15
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 99.69
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 104.79 (Deadline: 114.90, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 22 → Factory 2
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 93.11
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 102.09
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 113.18
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 117.78 (Deadline: 117.70, Delay: 0.08)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 23 → Factory 2
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 40.51
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 47.79
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 56.45
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 59.45 (Deadline: 80.60, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 24 → Factory 4
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 74.61
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 84.80
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 95.85
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 96.65 (Deadline: 111.00, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 26 → Factory 2
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 18.08
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 29.28
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 42.07
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 44.77 (Deadline: 62.00, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 28 → Factory 2
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 83.73
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 93.11
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 103.32
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 107.62 (Deadline: 111.60, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 29 → Factory 5
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 95.79
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 108.55
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 119.04
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 122.24 (Deadline: 120.80, Delay: 1.44)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 30 → Factory 2
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 56.77
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 66.67
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 77.45
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 79.85 (Deadline: 91.40, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 34 → Factory 3
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 56.91
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 66.15
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 75.75
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 4: completion time = 85.92
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 88.82 (Deadline: 101.40, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 35 → Factory 4
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 84.85
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 94.31
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 105.74
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 106.84 (Deadline: 119.80, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 39 → Factory 4
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 59.91
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 70.32
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 81.45
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 84.25 (Deadline: 97.20, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 40 → Factory 2
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 46.83
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 54.06
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 63.51
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 66.61 (Deadline: 83.90, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 41 → Factory 2
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 35.15
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 42.07
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 49.93
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 51.53 (Deadline: 82.70, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 42 → Factory 7
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 49.74
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 58.70
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 69.66
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 4: completion time = 79.13
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 85.53 (Deadline: 100.60, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 43 → Factory 1
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 53.50
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 62.26
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 71.48
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 4: completion time = 79.84
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 5: completion time = 88.00
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 89.80 (Deadline: 99.60, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 44 → Factory 3
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 66.16
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 73.79
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 84.19
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 4: completion time = 94.07
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 98.07 (Deadline: 100.20, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 45 → Factory 2
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 70.51
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 83.73
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 93.11
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 96.11 (Deadline: 108.20, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 47 → Factory 4
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 18.88
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 28.45
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 37.86
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 40.36 (Deadline: 63.60, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 49 → Factory 5
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 55.20
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 66.82
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 77.56
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 81.36 (Deadline: 87.90, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 50 → Factory 6
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 53.02
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 63.40
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 72.46
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 76.56 (Deadline: 78.10, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 51 → Factory 7
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 56.51
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 69.30
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 79.13
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 4: completion time = 86.52
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 93.42 (Deadline: 94.80, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 52 → Factory 5
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 71.76
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 82.56
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 93.52
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 96.22 (Deadline: 101.60, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 53 → Factory 3
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 45.71
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 54.85
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 64.85
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 4: completion time = 74.59
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 77.09 (Deadline: 97.00, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 54 → Factory 5
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 31.31
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 40.93
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 49.64
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 54.94 (Deadline: 59.10, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 56 → Factory 3
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 75.58
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 83.25
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 92.61
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 4: completion time = 103.26
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 106.66 (Deadline: 115.80, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 57 → Factory 6
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 23.92
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 31.70
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 40.68
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 44.58 (Deadline: 60.70, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 59 → Factory 6
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 93.92
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 101.08
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 108.58
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 109.78 (Deadline: 109.20, Delay: 0.58)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 60 → Factory 6
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 46.69
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 56.60
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 65.61
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 70.31 (Deadline: 86.90, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 61 → Factory 6
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 60.39
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 70.15
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 79.96
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 86.96 (Deadline: 105.90, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 62 → Factory 7
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 68.62
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 79.22
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 90.38
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 4: completion time = 100.22
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 100.92 (Deadline: 110.70, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 63 → Factory 7
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 40.62
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 48.62
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 55.31
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 4: completion time = 61.75
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 68.65 (Deadline: 84.60, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 64 → Factory 6
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 70.15
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 79.96
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 90.72
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 92.42 (Deadline: 93.70, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Order 65 → Factory 5
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 1: completion time = 48.20
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 2: completion time = 59.61
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Machine 3: completion time = 70.33
+04/26/2026 01:26:04 AM INFO mip_v1 - print:   Delivery: 75.03 (Deadline: 102.70, Delay: 0.00)
+04/26/2026 01:26:04 AM INFO mip_v1 - print: 
+04/26/2026 01:26:04 AM INFO mip_v1 - print: ------------------------------------------------------------
+04/26/2026 01:26:04 AM INFO mip_v1 - print: COST BREAKDOWN
+04/26/2026 01:26:04 AM INFO mip_v1 - print: ------------------------------------------------------------
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Total Revenue:          +    53169.00
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Production Cost:        -    23629.17
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Transport Cost:         -    10024.35
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Delay Penalty:          -      146.44
+04/26/2026 01:26:04 AM INFO mip_v1 - print: ------------------------------------------------------------
+04/26/2026 01:26:04 AM INFO mip_v1 - print: Total Profit:           =    19369.03
